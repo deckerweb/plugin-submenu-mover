@@ -49,9 +49,37 @@ For all other snippet manager plugins just use our plugin's main .php file [`plu
 
 ## How this Plugin Works
 
+#### Explanation (Kind of)
+
 1. It takes the top-level admin menu items of _some_ plugins and moves these pages as _submenus_ to an already existing admin pages. For example the popular "The SEO Framework" plugin does not need a top-level item – it's just ONE admin page – and can reside under regular WordPress general settings without any issues. That's the main concept.
 2. The currently "integrated" plugins were tested by myself if everything works. The functionaly of that specific plugin admin page must still work as submenu, if that is the case, moving makes total sense. I use this plugin/snippet for some years already without any issues and I developed it for myself.
 3. Only plugins get integrated where it makes sense: It must be the only admin page that this specific plugin has, and there should be relevant stuff on it. Promotional upsell/marketing/dashboard pages could be "removed" (even via CSS), these do _need_ to be moved.
+4. The "moving" is just a simple WordPress default function, nothing special. There are no settings, not settings page itself, nothing of this stuff. It's all totally lightweight and simple and elegant. You can activate the plugin / snippet at any time.
+
+#### Currently Supported/ Integrated Plugins (as of March 2025)
+
+* _The SEO Framework_ (free - wordpress.org)
+* _Limit Login Attempts_ Reloaded (free - wordpress.org)
+* _PublishPress Future_ (free - wordpress.org) (formerly: Post Expirator)
+* _Labinator Minimal Maintenance Mode_ (free - wordpress.org)
+* _WP Toolbelt_ (free - wordpress.org)
+* _FluentSnippets_ (free - wordpress.org)
+* _Maintenance_ (free - wordpress.org)
+* _Related Posts Thumbnails_ (free - wordpress.org)
+* _SearchWP Live Search_ (free - wordpress.org)
+* _Breakdance Reading Time Calculator_ (free - wordpress.org)
+* _Real Cookie Banner_ (free - wordpress.org)
+* _Real Cookie Banner Pro_ (Premium)
+* _DevKit Pro/free_ (by DPlugins.com)
+* _WPCodeBox_ (Premium)
+* _OxyProps_ / _BricksProps_ (Premium)
+* _Revolution Slider_ (Premium)
+* _Instant IDE_ (Premium)
+* _Schema Pro_ (Premium)
+* _Elements Hive Pro_ (Premium)
+* _Envato Market_ (API Plugin Envato Marketplaces like themeforest and codecanyon)
+
+NOTE: An integration can no longer work at any time should any of these plugins change something. Please use at your own risk.
 
 ---
 

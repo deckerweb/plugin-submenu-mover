@@ -81,7 +81,7 @@ class DDW_Plugin_Submenu_Mover {
 		/** Collecting the plugin data */
 		$do_plugins = [
 			
-			/** Plugin: The SEO Framework (wordpress.org) */
+			/** Plugin: The SEO Framework (free - wordpress.org) */
 			'the-seo-framework' => [
 				'is-active'    => defined( 'THE_SEO_FRAMEWORK_VERSION' ),
 				'capability'   => 'manage_options',
@@ -90,7 +90,7 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'The SEO Framework',
 			],
 			
-			/** Plugin: Limit Login Attempts Reloaded (wordpress.org) */
+			/** Plugin: Limit Login Attempts Reloaded (free - wordpress.org) */
 			'limit-login-attempts-reloaded' => [
 				'is-active'    => defined( 'LLA_PLUGIN_URL' ),
 				'capability'   => 'manage_options',
@@ -99,7 +99,7 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'Limit Login Attempts',
 			],
 			
-			/** Plugin: PublishPress Future (wordpress.org) (formerly: Post Expirator) */
+			/** Plugin: PublishPress Future (free - wordpress.org) (formerly: Post Expirator) */
 			'publishpress-future' => [
 				'is-active'    => defined( 'POSTEXPIRATOR_VERSION' ),
 				'capability'   => 'manage_options',
@@ -108,7 +108,7 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'PublishPress Future',
 			],
 	
-			/** Plugin: Labinator Minimal Maintenance Mode (wordpress.org) */
+			/** Plugin: Labinator Minimal Maintenance Mode (free - wordpress.org) */
 			'labinator-minimal-maintenance-mode' => [
 				'is-active'    => defined( 'LMM_VERSION' ),
 				'capability'   => 'manage_options',
@@ -117,7 +117,7 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'Labinator Minimal Maintenance Mode',
 			],
 				
-			/** Plugin: WP Toolbelt (wordpress.org) */
+			/** Plugin: WP Toolbelt (free - wordpress.org) */
 			'wp-toolbelt' => [
 				'is-active'    => defined( 'TOOLBELT_VERSION' ),
 				'capability'   => 'manage_options',
@@ -207,7 +207,7 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'Envato Market',
 			],
 			
-			/** Plugin: Related Posts Thumbnails (wordpress.org)  */
+			/** Plugin: Related Posts Thumbnails (free - wordpress.org)  */
 			'related-posts-thumbnails' => [
 				'is-active'    => class_exists( 'RelatedPostsThumbnails' ),
 				'capability'   => 'edit_theme_options',
@@ -243,7 +243,7 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'Schema Pro',
 			],
 			
-			/** Plugin: SearchWP Live Search (wordpress.org)  */
+			/** Plugin: SearchWP Live Search (free - wordpress.org)  */
 			'searchwp-live-search' => [
 				'is-active'    => defined( 'SEARCHWP_LIVE_SEARCH_VERSION' ),
 				'capability'   => 'edit_theme_options',
