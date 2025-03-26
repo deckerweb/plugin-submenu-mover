@@ -65,7 +65,7 @@ For all other snippet manager plugins just use our plugin's main .php file [`plu
 
 ## Changelog / Releases
 
-### 🎉 v1.3.0 – 2025-03-??
+### 🎉 v1.4.0 – 2025-03-??
 * Initial _public_ release – _Yeah!_
 
 ### 🎉 v1.0.0 – 2022-07

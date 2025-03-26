@@ -4,7 +4,7 @@ Plugin Name:  Plugin Submenu Mover
 Plugin URI:   https://github.com/deckerweb/plugin-submenu-mover
 Description:  Move some plugin's single settings pages from top-level position to submenu under Tools, Settings or were appropriate. Result: cleaner admin screen, less confusing.
 Project:      Code Snippet: DDW Plugin Submenu Mover
-Version:      1.3.0
+Version:      1.4.0
 Author:       David Decker - DECKERWEB
 Author URI:   https://deckerweb.de/
 License:      GPL-2.0-or-later
@@ -25,7 +25,7 @@ WordPress		6.7.2 ... 6.8 Beta (used in production since 2022!)
 VERSION HISTORY:
 Date        Version     Description
 --------------------------------------------------------------------------------------------------------------
-2025-03-??	1.3.0       Initial public release
+2025-03-??	1.4.0       Initial public release
 						- Now with class-based approach
 						- Battle tested for 3 years already
 .			.			.
@@ -43,7 +43,7 @@ if ( ! class_exists( 'DDW_Plugin_Submenu_Mover' ) ) :
 class DDW_Plugin_Submenu_Mover {
 
 	/** Class constants & variables */
-	private const VERSION = '1.3.0';
+	private const VERSION = '1.4.0';
 	
 	/**
 	 * Constructor
@@ -126,7 +126,7 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'Toolbelt Modules',
 			],
 	
-			/** Plugin: DevKit Pro/free (by dPlugins.com) */
+			/** Plugin: DevKit Pro/free (by DPlugins.com) */
 			'devkit-pro' => [
 				'is-active'    => defined( 'DPDEVKIT_URL' ),
 				'capability'   => 'activate_plugins',
@@ -259,6 +259,15 @@ class DDW_Plugin_Submenu_Mover {
 				'admin-slug'   => 'elements-hive-pro',
 				'move-to-menu' => 'breakdance',
 				'label'        => 'Elements Hive Pro',
+			],
+			
+			/** Plugin: Breakdance Reading Time Calculator (free - wordpress.org) */
+			'bd-reading-time-calculator' => [
+				'is-active'    => function_exists( 'bd_reading_time_menu' ),
+				'capability'   => 'manage_options',
+				'admin-slug'   => 'bd-reading-time',
+				'move-to-menu' => 'breakdance',
+				'label'        => 'Reading Time Calculator',
 			],
 			
 		];  // end array
