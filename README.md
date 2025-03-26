@@ -9,7 +9,7 @@ Move some plugin's single settings pages from top-level position to submenu unde
 
 ---
 
-[Support Project](#support-the-project) | [Installation](#installation) | [How Plugin Works](#how-this-plugin-works) | [Custom Tweaks](#custom-tweaks) | [Changelog](#changelog--releases) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
+[Support Project](#support-the-project) | [Installation](#installation) | [How Plugin Works](#how-this-plugin-works) | [Custom Tweaks](#custom-tweaks) | [Changelog](#changelog--releases) | [Plugin's Backstory](#plugins-backstory) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
 
 ---
 
@@ -70,6 +70,14 @@ For all other snippet manager plugins just use our plugin's main .php file [`plu
 
 ### 🎉 v1.0.0 – 2022-07
 * Initial _private_ release
+
+---
+
+## Plugin's Backstory
+
+_I wanted and needed the functionality of this plugin (Plugin Submenu Mover) myself so I developed it. For years alreay, I was annoyed by plugins putting their single admin pages on the top-level menu position in the WordPress Admin Area. This clutters your admin and takes away precious space, especially when you are on the smaller notebook on the go. This needed to be more streamlined. Formerly I mostly did specific code snippets for each of these plugins but I thought this could be done more elegant. So this code snippet was born and later on being made as plugin as well. This code already works in the installs I maintain for some years and is battle tested._
+
+–– David Decker, plugin developer, in March of 2025
 
 ---
 
