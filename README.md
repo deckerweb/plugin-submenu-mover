@@ -2,6 +2,8 @@
 
 Move some plugin's single settings pages from top-level position to submenu under Tools, Settings or were appropriate. Result: cleaner admin screen, less confusing.
 
+![Multisite Toolbar Additions plugin banner](https://repository-images.githubusercontent.com/955324356/7cdf9dc9-d028-4732-a5d2-ae855d2855c3)
+
 ### Tested Compatibility
 * **WordPress**: 6.7.2 / 6.8 Beta
 * **PHP**: 8.0 – 8.3
