@@ -25,7 +25,7 @@ WordPress		6.7.2 ... 6.8 Beta (used in production since 2022!)
 VERSION HISTORY:
 Date        Version     Description
 --------------------------------------------------------------------------------------------------------------
-2025-03-??	1.4.0       Initial public release
+2025-03-28	1.4.0       Initial public release
 						- Now with class-based approach
 						- Battle tested for 3 years already
 .			.			.

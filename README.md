@@ -107,7 +107,7 @@ function prefix_your_custom_function( $plugins ) {
 
 ## Changelog / Releases
 
-### 🎉 v1.4.0 – 2025-03-??
+### 🎉 v1.4.0 – 2025-03-28
 * Initial _public_ release – _Yeah!_
 
 . . .
