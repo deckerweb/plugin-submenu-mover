@@ -29,9 +29,9 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 ## Installation
 
 **Quick Install – as Plugin**
-1. **Download ZIP:** [**quick-edit-featured-image.zip**](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip)
+1. **Download ZIP:** [**plugin-submenu-mover.zip**](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip)
 2. Upload via WordPress Plugins > Add New > Upload Plugin
-3. Once activated, you’ll should see the integrated plugins _under_ their defined new "home" :-)
+3. Once activated, you’ll should see the integrated plugins _under_ their defined new "home" 😉
 
 #### **Alternative: Use as Code Snippet**
 1. Below, download the appropriate snippet version
@@ -58,25 +58,26 @@ For all other snippet manager plugins just use our plugin's main .php file [`plu
 
 #### Currently Supported/ Integrated Plugins (as of March 2025)
 
-* _The SEO Framework_ (free - wordpress.org)
-* _Limit Login Attempts_ Reloaded (free - wordpress.org)
-* _PublishPress Future_ (free - wordpress.org) (formerly: Post Expirator)
-* _Labinator Minimal Maintenance Mode_ (free - wordpress.org)
-* _WP Toolbelt_ (free - wordpress.org)
-* _FluentSnippets_ (free - wordpress.org)
-* _Maintenance_ (free - wordpress.org)
-* _Related Posts Thumbnails_ (free - wordpress.org)
-* _SearchWP Live Search_ (free - wordpress.org)
-* _Breakdance Reading Time Calculator_ (free - wordpress.org)
-* _Real Cookie Banner_ (free - wordpress.org)
-* _Real Cookie Banner Pro_ (Premium)
-* _DevKit Pro/free_ (by DPlugins.com)
-* _WPCodeBox_ (Premium)
-* _OxyProps_ / _BricksProps_ (Premium)
-* _Revolution Slider_ (Premium)
-* _Instant IDE_ (Premium)
-* _Schema Pro_ (Premium)
-* _Elements Hive Pro_ (Premium)
+* _The SEO Framework_ (free - wordpress.org) ➞ now under Settings
+* _Limit Login Attempts_ Reloaded (free - wordpress.org) ➞ now under Settings
+* _PublishPress Future_ (free - wordpress.org) (formerly: Post Expirator) ➞ now under Settings
+* _Labinator Minimal Maintenance Mode_ (free - wordpress.org) ➞ now under Tools
+* _WP Toolbelt_ (free - wordpress.org) ➞ now under Tools
+* _FluentSnippets_ (free - wordpress.org) ➞ now under Tools
+* _Maintenance_ (free - wordpress.org) ➞ now under Tools
+* _Related Posts Thumbnails_ (free - wordpress.org) ➞ now under Appearance
+* _SearchWP Live Search_ (free - wordpress.org) ➞ now under Settings
+* _Breakdance Reading Time Calculator_ (free - wordpress.org) ➞ now under "Breakdance"
+* _Cookie Notice_ (free - wordpress.org) ➞ now under Settings
+* _Real Cookie Banner_ (free - wordpress.org) ➞ now under Settings
+* _Real Cookie Banner Pro_ (Premium) ➞ now under Settings
+* _DevKit Pro/free_ (by DPlugins.com) ➞ now under Tools
+* _WPCodeBox_ (Premium) ➞ now under Tools
+* _OxyProps_ / _BricksProps_ (Premium) ➞ now under Tools
+* _Revolution Slider_ (Premium) ➞ now under Appearance
+* _Instant IDE_ (Premium) ➞ now under Tools
+* _Schema Pro_ (Premium) ➞ now under Settings
+* _Elements Hive Pro_ (Premium) ➞ now under "Breakdance"
 * _Envato Market_ (API Plugin Envato Marketplaces like themeforest and codecanyon)
 
 NOTE: An integration can no longer work at any time should any of these plugins change something. Please use at your own risk.
@@ -87,7 +88,18 @@ NOTE: An integration can no longer work at any time should any of these plugins 
 
 #### via Filter (for developers):
 
-(Content upcoming ...)
+The filter `ddw-psm/plugins` allows you to tweak the array of plugins: add more plugins, remove some of the defaults, or change parameters of the defaults.
+
+Typical usage:
+```
+add_filter( 'ddw-psm/plugins', 'prefix_your_custom_function' );
+function prefix_your_custom_function( $plugins ) {
+
+	// do your stuff
+	
+	return $plugins;
+}
+```
 
 ---
 
@@ -96,7 +108,9 @@ NOTE: An integration can no longer work at any time should any of these plugins 
 ### 🎉 v1.4.0 – 2025-03-??
 * Initial _public_ release – _Yeah!_
 
-### 🎉 v1.0.0 – 2022-07
+. . .
+
+### 👍 v1.0.0 – 2022-07
 * Initial _private_ release
 
 ---
