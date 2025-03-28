@@ -109,6 +109,8 @@ function prefix_your_custom_function( $plugins ) {
 
 ### 🎉 v1.4.0 – 2025-03-28
 * Initial _public_ release – _Yeah!_
+* New: Now with class-based approach
+* Proven: Battle tested for 3 years already
 
 . . .
 
