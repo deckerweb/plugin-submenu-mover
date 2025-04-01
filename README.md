@@ -107,6 +107,9 @@ function prefix_your_custom_function( $plugins ) {
 
 ## Changelog / Releases
 
+### 🎉 v1.5.0 – 2025-04-??
+* New: Installable and updateable via [Git Updater plugin](https://git-updater.com/)
+
 ### 🎉 v1.4.0 – 2025-03-28
 * Initial _public_ release – _Yeah!_
 * New: Now with class-based approach
@@ -141,4 +144,4 @@ _Most of all:_ Have fun building great sites!!! ;-)
 
 Icon used in promo graphics: © Remix Icon
 
-Copyright: © 2022-2025, David Decker – DECKERWEB.de
+Readme & Plugin Copyright: © 2022-2025, David Decker – DECKERWEB.de

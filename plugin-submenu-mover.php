@@ -1,19 +1,21 @@
 <?php # -*- coding: utf-8 -*-
 /*
-Plugin Name:  Plugin Submenu Mover
-Plugin URI:   https://github.com/deckerweb/plugin-submenu-mover
-Description:  Move some plugin's single settings pages from top-level position to submenu under Tools, Settings or were appropriate. Result: cleaner admin screen, less confusing.
-Project:      Code Snippet: DDW Plugin Submenu Mover
-Version:      1.4.0
-Author:       David Decker - DECKERWEB
-Author URI:   https://deckerweb.de/
-License:      GPL-2.0-or-later
-License URI:  https://www.gnu.org/licenses/gpl-2.0.html
-Text Domain:  plugin-submenu-mover
-Domain Path:  /languages/
-Requires WP:  6.7
-Requires PHP: 7.4
-Copyright:    © 2022-2025, David Decker - DECKERWEB
+Plugin Name:       Plugin Submenu Mover
+Plugin URI:        https://github.com/deckerweb/plugin-submenu-mover
+Description:       Move some plugin's single settings pages from top-level position to submenu under Tools, Settings or were appropriate. Result: cleaner admin screen, less confusing.
+Project:           Code Snippet: DDW Plugin Submenu Mover
+Version:           1.4.0
+Author:            David Decker - DECKERWEB
+Author URI:        https://deckerweb.de/
+License:           GPL-2.0-or-later
+License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:       plugin-submenu-mover
+Domain Path:       /languages/
+Requires WP:       6.7
+Requires PHP:      7.4
+GitHub Plugin URI: deckerweb/plugin-submenu-mover
+GitHub Branch:     master
+Copyright:         © 2022-2025, David Decker - DECKERWEB
 
 TESTED WITH:
 Product			Versions
@@ -25,6 +27,7 @@ WordPress		6.7.2 ... 6.8 Beta (used in production since 2022!)
 VERSION HISTORY:
 Date        Version     Description
 --------------------------------------------------------------------------------------------------------------
+2025-04-??	1.5.0		New: Installable and updateable via Git Updater plugin
 2025-03-28	1.4.0       Initial public release
 						- Now with class-based approach
 						- Battle tested for 3 years already
