@@ -13,8 +13,8 @@ Text Domain:       plugin-submenu-mover
 Domain Path:       /languages/
 Requires WP:       6.7
 Requires PHP:      7.4
-GitHub Plugin URI: deckerweb/plugin-submenu-mover
-GitHub Branch:     master
+GitHub Plugin URI: https://github.com/deckerweb/plugin-submenu-mover
+Primary Branch:    main
 Copyright:         © 2022-2025, David Decker - DECKERWEB
 
 TESTED WITH:

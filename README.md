@@ -4,10 +4,13 @@ Move some plugin's single settings pages from top-level position to submenu unde
 
 ![Multisite Toolbar Additions plugin banner](https://repository-images.githubusercontent.com/955324356/7cdf9dc9-d028-4732-a5d2-ae855d2855c3)
 
-### Tested Compatibility
-* **WordPress**: 6.7.2 / 6.8 Beta
-* **PHP**: 8.0 – 8.3
-* _(... used in production since 2022!)_
+* Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/plugin-submenu-mover/graphs/contributors)
+* Tags: plugins, submenu, move, admin menu, wp-admin
+* Requires at least: 6.7
+* Requires PHP: 7.4
+* Stable tag: [main](https://github.com/deckerweb/plugin-submenu-mover/releases/latest)
+* Donate link: https://paypal.me/deckerweb
+* License: GPL v2 or later
 
 ---
 
@@ -46,6 +49,11 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 For all other snippet manager plugins just use our plugin's main .php file [`plugin-submenu-mover.php`](https://github.com/deckerweb/plugin-submenu-mover/blob/master/plugin-submenu-mover.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening php tag needs to be removed or not!).
 
 --> Please decide for one of both alternatives!
+
+### Tested Compatibility
+* **WordPress**: 6.7.2 / 6.8 Beta
+* **PHP**: 8.0 – 8.3
+* _(... used in production since 2022!)_
 
 ---
 
