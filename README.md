@@ -153,6 +153,7 @@ Because the restrictions there for plugin authors are becoming more and more. It
 ### 🎉 v1.5.0 – 2025-05-?? 
 * New: Support for "Bricks Remote Template Sync" plugin (free, via github.com)
 * New: Installable and updateable via [Git Updater plugin](https://git-updater.com/)
+* Update: `.pot` file, plus packaged German translations, now including new `l10n.php` files!
 
 
 ### 🎉 v1.4.0 – 2025-03-28 
