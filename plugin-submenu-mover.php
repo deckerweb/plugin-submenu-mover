@@ -13,6 +13,7 @@ Text Domain:       plugin-submenu-mover
 Domain Path:       /languages/
 Requires WP:       6.7
 Requires PHP:      7.4
+Update URI:        https://github.com/deckerweb/plugin-submenu-mover/
 GitHub Plugin URI: https://github.com/deckerweb/plugin-submenu-mover
 Primary Branch:    main
 Copyright:         © 2022-2025, David Decker - DECKERWEB
@@ -21,13 +22,13 @@ TESTED WITH:
 Product			Versions
 --------------------------------------------------------------------------------------------------------------
 PHP 			8.0, 8.3
-WordPress		6.7.2 ... 6.8 Beta (used in production since 2022!)
+WordPress		6.7.2 ... 6.8.1 (used in production since 2022!)
 --------------------------------------------------------------------------------------------------------------
 
 VERSION HISTORY:
 Date        Version     Description
 --------------------------------------------------------------------------------------------------------------
-2025-04-??	1.5.0		New: Installable and updateable via Git Updater plugin
+2025-05-??	1.5.0		New: Installable and updateable via Git Updater plugin
 2025-03-28	1.4.0       Initial public release
 						- Now with class-based approach
 						- Battle tested for 3 years already
@@ -273,6 +274,15 @@ class DDW_Plugin_Submenu_Mover {
 				'label'        => 'Reading Time Calculator',
 			],
 			
+			/** Plugin: Bricks Remote Template Sync (free - github.com) */
+			'bricks-remote-template-sync' => [
+				'is-active'    => defined( 'BRICKS_REMOTE_SYNC_VERSION' ),
+				'capability'   => 'manage_options',
+				'admin-slug'   => 'bricks-remote-template-sync',
+				'move-to-menu' => 'bricks',
+				'label'        => 'Bricks Remote Template Sync',
+			],
+			
 		];  // end array
 		
 		/** Return the array, filterable */
@@ -343,9 +353,9 @@ add_filter( 'plugin_row_meta', 'ddw_psm_pluginrow_meta', 10, 2 );
  *
  * @since 1.3.0
  *
- * @param array  $ddwp_meta (Default) Array of plugin meta links.
- * @param string $ddwp_file File location of plugin.
- * @return array $ddwp_meta (Modified) Array of plugin links/ meta.
+ * @param array  $ddwp_meta  (Default) Array of plugin meta links.
+ * @param string $ddwp_file  File location of plugin.
+ * @return array $ddwp_meta  (Modified) Array of plugin links/ meta.
  */
 function ddw_psm_pluginrow_meta( $ddwp_meta, $ddwp_file ) {
  
@@ -375,7 +385,7 @@ function ddw_psm_pluginrow_meta( $ddwp_meta, $ddwp_file ) {
 		 );
 	 }  // end if
  
-	 return apply_filters( 'ddw/admin_extras/pluginrow_meta', $ddwp_meta );
+	 return apply_filters( 'ddw-psm/pluginrow-meta', $ddwp_meta );
  
 }  // end function
  
