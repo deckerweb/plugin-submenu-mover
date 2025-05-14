@@ -14,11 +14,11 @@ Move some plugin's single settings pages from top-level position to submenu unde
 
 ---
 
-[Support Project](#support-the-project) | [Installation](#installation) | [How Plugin Works](#how-this-plugin-works) | [Custom Tweaks](#custom-tweaks) | [Changelog](#changelog--releases) | [Plugin's Backstory](#plugins-backstory) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
+[Support Project](#support-the-project) | [Installation](#installation) | [Updates](#updates) | [Description](#description) | [Custom Tweaks](#custom-tweaks) | [FAQ](#frequently-asked-questions) | [Changelog](#changelog) | [Plugin's Backstory](#plugins-backstory) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
 
 ---
 
-## Support the Project
+## Support the Project 
 
 If you find this project helpful, consider showing your support by buying me a coffee! Your contribution helps me keep developing and improving this plugin.
 
@@ -31,33 +31,54 @@ Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through th
 
 ---
 
-## Installation
+## Installation 
 
-**Quick Install – as Plugin**
+#### **Quick Install – as Plugin**
+[![Download Plugin](https://raw.githubusercontent.com/deckerweb/plugin-submenu-mover/refs/heads/main/assets/button-download-plugin.png)](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip)
+
 1. **Download ZIP:** [**plugin-submenu-mover.zip**](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip)
 2. Upload via WordPress Plugins > Add New > Upload Plugin
 3. Once activated, you’ll should see the integrated plugins _under_ their defined new "home" 😉
 
 #### **Alternative: Use as Code Snippet**
+[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/plugin-submenu-mover/refs/heads/main/assets/button-download-snippet.png)](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/ddw-plugin-submenu-mover.code-snippets.json)  
 1. Below, download the appropriate snippet version
-2. activate or deactivate in your snippets plugin
+2. Activate or deactivate in your snippets plugin
 
-[**Download .json**](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/ddw-plugin-submenu-mover.code-snippets.json) version for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)
---> just use their elegant script import features
---> in _Scripts Organizer_ use the "Code Snippets Import"
+[**Download .json**](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/ddw-plugin-submenu-mover.code-snippets.json) version for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
+➔ just use their elegant script import features 
+➔ in _Scripts Organizer_ use the "Code Snippets Import" 
 
 For all other snippet manager plugins just use our plugin's main .php file [`plugin-submenu-mover.php`](https://github.com/deckerweb/plugin-submenu-mover/blob/master/plugin-submenu-mover.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening php tag needs to be removed or not!).
 
---> Please decide for one of both alternatives!
+➔ Please decide for one of both alternatives!
 
 ### Tested Compatibility
-* **WordPress**: 6.7.2 / 6.8 Beta
+* **WordPress**: 6.7.2 ... 6.8.1
 * **PHP**: 8.0 – 8.3
 * _(... used in production since 2022!)_
 
 ---
 
-## How this Plugin Works
+## Updates 
+
+#### For Plugin Version:
+
+1) Alternative 1: Just download a new [ZIP file](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip) (see above), upload and override existing version. Done.
+
+2) Alternative 2: Use the (free) [**_Git Updater_ plugin**](https://git-updater.com/) and get updates automatically.
+
+3) Alternative 3: Upcoming! – In future I will built-in our own deckerweb updater. This is currently being worked on for my plugins. Stay tuned!
+
+#### For Code Snippet Version:
+
+Just manually: Download the latest Snippet version (see above) and import it in your favorite snippets manager plugin. – You can delete the old snippet; then just activate the new one. Done.
+
+---
+
+## Description 
+
+### How this Plugin Works
 
 #### Explanation (Kind of)
 
@@ -66,7 +87,7 @@ For all other snippet manager plugins just use our plugin's main .php file [`plu
 3. Only plugins get integrated where it makes sense: It must be the only admin page that this specific plugin has, and there should be relevant stuff on it. Promotional upsell/marketing/dashboard pages could be "removed" (even via CSS), these do _need_ to be moved.
 4. The "moving" is just a simple WordPress default function, nothing special. There are no settings, not settings page itself, nothing of this stuff. It's all totally lightweight and simple and elegant. You can activate the plugin / snippet at any time.
 
-#### Currently Supported/ Integrated Plugins (as of March 2025)
+### Currently Supported/ Integrated Plugins (as of March 2025)
 
 * _The SEO Framework_ (free - wordpress.org) ➞ now under Settings
 * _Limit Login Attempts_ Reloaded (free - wordpress.org) ➞ now under Settings
@@ -111,14 +132,30 @@ function prefix_your_custom_function( $plugins ) {
 }
 ```
 
+
 ---
 
-## Changelog / Releases
+## Frequently Asked Questions 
 
-### 🎉 v1.5.0 – 2025-04-??
+### Why did you create this plugin?
+Because I needed (and wanted!) it myself for the sites I maintain. [Read the backstory here ...](#plugins-backstory)
+
+### Why is this plugin not on wordpress.org plugin repository?
+Because the restrictions there for plugin authors are becoming more and more. It would be possible but I don't want that anymore. The same for limited support forums for plugin authors on .org. I have decided to leave this whole thing behind me.
+
+
+---
+
+## Changelog 
+
+#### The Releases
+
+### 🎉 v1.5.0 – 2025-05-?? 
+* New: Support for "Bricks Remote Template Sync" plugin (free, via github.com)
 * New: Installable and updateable via [Git Updater plugin](https://git-updater.com/)
 
-### 🎉 v1.4.0 – 2025-03-28
+
+### 🎉 v1.4.0 – 2025-03-28 
 * Initial _public_ release – _Yeah!_
 * New: Now with class-based approach
 * Proven: Battle tested for 3 years already
@@ -150,6 +187,6 @@ _Most of all:_ Have fun building great sites!!! ;-)
 
 ---
 
-Icon used in promo graphics: © Remix Icon
+Icon used in promo graphics: [© Remix Icon](https://remixicon.com/)
 
 Readme & Plugin Copyright: © 2022-2025, David Decker – DECKERWEB.de
