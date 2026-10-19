@@ -1,54 +1,779 @@
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: Plugin Submenu Mover\n"
-"POT-Creation-Date: 2025-05-14 13:22+0200\n"
-"PO-Revision-Date: 2025-03-26 14:35+0100\n"
-"Last-Translator: David Decker DECKERWEB.de <David Decker DECKERWEB.de>\n"
-"Language-Team: David Decker DECKERWEB.de <David Decker DECKERWEB.de>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"X-Generator: Poedit 3.6\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Poedit-WPHeader: plugin-submenu-mover.php\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: "
-"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
-#: plugin-submenu-mover.php:378
-msgctxt "Plugins page listing"
+msgid "%1$d selected · %2$d available · %3$d visible · %4$d marked"
+msgstr ""
+
+msgid "%d matching groups marked. Navigation choices are unchanged."
+msgstr ""
+
+msgid "%d users selected"
+msgstr ""
+
+msgid "Accepted structure"
+msgstr ""
+
+msgid "Access denied."
+msgstr ""
+
+msgid "Actions include marked rows hidden by filters."
+msgstr ""
+
+msgid "Added pages: %1$d · Removed pages: %2$d · Permission changes: %3$d"
+msgstr ""
+
+msgid "Additional plugin pages found; left unchanged"
+msgstr ""
+
+msgid "Admin menu position"
+msgstr ""
+
+msgid "Administrator user IDs"
+msgstr ""
+
+msgid "After"
+msgstr ""
+
+msgid "After %s"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "All pages"
+msgstr ""
+
+msgid "All plugins"
+msgstr ""
+
+msgid "All users"
+msgstr ""
+
+msgid "Anchor unavailable; using the default position"
+msgstr ""
+
+msgid "Another plugin loaded an older shared updater. Update the other deckerweb plugins to restore update checks for Plugin Submenu Mover."
+msgstr ""
+
+msgid "Apply changes"
+msgstr ""
+
+msgid "Attach group"
+msgstr ""
+
+msgid "Attached workgroup"
+msgstr ""
+
+msgid "Attached:"
+msgstr ""
+
+msgid "Automatic menu moves are active again."
+msgstr ""
+
+msgid "Automatic move"
+msgstr ""
+
+msgid "Automatically move %s"
+msgstr ""
+
+msgid "Automatically move selected plugin settings pages into useful WordPress submenus."
+msgstr ""
+
+msgid "Available groups come from the current permitted admin menus, not every installed plugin. Newly detected groups stay unselected. Saved workspaces and exported hub settings can be reused as templates."
+msgstr ""
+
+msgid "Available in Plugin Hub; original registration preserved"
+msgstr ""
+
+msgid "Before"
+msgstr ""
+
+msgid "Before %s"
+msgstr ""
+
+msgid "Bundle in hub"
+msgstr ""
+
+msgid "Bundle marked groups"
+msgstr ""
+
+msgid "Bundled components"
+msgstr ""
+
+msgid "Cards and a contextual menu keep plugin pages together. Link mode keeps original menus. Bundle mode hides a group only while its accepted structure is unchanged."
+msgstr ""
+
+msgid "Changelog"
+msgstr ""
+
+msgid "Changes applied."
+msgstr ""
+
+msgid "Changes discarded."
+msgstr ""
+
+msgid "Choose a plugin in the left menu or open its menu from a card. Its pages then appear below Plugin Hub. Use All plugins to return to this overview."
+msgstr ""
+
+msgid "Choose a template"
+msgstr ""
+
+msgid "Choose plugin groups for a workspace such as setup, content or maintenance. Workspaces only filter navigation and never change permissions."
+msgstr ""
+
+msgid "Choose several users by name or username. Your own account cannot be excluded. Changes take effect after preview and apply. This selection stays on this site and is not exported."
+msgstr ""
+
+msgid "Choose the Plugin Hub icon for this site. Local SVG icons include a Dashicons fallback."
+msgstr ""
+
+msgid "Choose users who belong to this site."
+msgstr ""
+
+msgid "Clear history"
+msgstr ""
+
+msgid "Clear search"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Configuration changed. Review again."
+msgstr ""
+
+msgid "Configured groups"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Could not access the update filesystem."
+msgstr ""
+
+msgid "Could not create the update download file."
+msgstr ""
+
+msgid "Could not load users. Try searching again."
+msgstr ""
+
+msgid "Could not prepare the GitHub release package."
+msgstr ""
+
+msgid "Could not save favorites. Please try again."
+msgstr ""
+
+msgid "Dashicons overview"
+msgstr ""
+
+msgid "Default position"
+msgstr ""
+
+msgid "Delete plugin data on uninstall"
+msgstr ""
+
+msgid "Delete this plugin’s settings and personal shortcuts when uninstalling."
+msgstr ""
+
+msgid "Detach group"
+msgstr ""
+
+msgid "Diagnostics report"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Discard changes"
+msgstr ""
+
+msgid "Documentation and FAQ"
+msgstr ""
+
 msgid "Donate"
 msgstr ""
 
-#: plugin-submenu-mover.php:384
-msgctxt "Plugins page listing"
+msgid "Download rules"
+msgstr ""
+
+msgid "Enable Plugin Hub"
+msgstr ""
+
+msgid "Enabled"
+msgstr ""
+
+msgid "Enter opens the first matching page. Escape clears the search."
+msgstr ""
+
+msgid "Enter valid user IDs separated by commas."
+msgstr ""
+
+msgid "Example: 3, 12. Your account (ID %d) cannot be excluded. Preview and apply changes. User exclusions stay on this site and are not exported."
+msgstr ""
+
+msgid "Exclude marked groups"
+msgstr ""
+
+msgid "Excluded users"
+msgstr ""
+
+msgid "Excluded users keep their original admin menus. Plugin Hub, automatic moves, favorites and plugin settings are disabled for them on this site. Roles and saved preferences remain unchanged."
+msgstr ""
+
+msgid "Export exceptions and target menus for another site. Import merges rules with this site; matching integration rules are replaced. Unknown integration IDs are retained for future use."
+msgstr ""
+
+msgid "Export schema"
+msgstr ""
+
+msgid "Favorite short labels"
+msgstr ""
+
+msgid "Favorites"
+msgstr ""
+
+msgid "Favorites updated."
+msgstr ""
+
+msgid "Find a page"
+msgstr ""
+
+msgid "Find plugin groups"
+msgstr ""
+
+msgid "Find users"
+msgstr ""
+
+msgid "Finding users…"
+msgstr ""
+
+msgid "GitHub release does not contain the plugin main file."
+msgstr ""
+
+msgid "Group bar"
+msgstr ""
+
+msgid "Hide group bar"
+msgstr ""
+
+msgid "Import and merge rules"
+msgstr ""
+
+msgid "Import rules"
+msgstr ""
+
+msgid "Invalid GitHub repository URL."
+msgstr ""
+
+msgid "Invalid authentication provider."
+msgstr ""
+
+msgid "Invalid configuration."
+msgstr ""
+
+msgid "Invalid integration configuration"
+msgstr ""
+
+msgid "Invalid rules. Use the exported configuration format."
+msgstr ""
+
+msgid "Invalid target menu."
+msgstr ""
+
 msgid "Join our Newsletter"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
-msgid "Plugin Submenu Mover"
+msgid "Kept at original position"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "https://github.com/deckerweb/plugin-submenu-mover"
+msgid "Known integrations are applied automatically. Keep individual pages at their original position or choose another existing menu. These rules apply to this site."
 msgstr ""
 
-#. Description of the plugin/theme
-msgid ""
-"Move some plugin's single settings pages from top-level position to submenu "
-"under Tools, Settings or were appropriate. Result: cleaner admin screen, "
-"less confusing."
+msgid "Last change undone."
 msgstr ""
 
-#. Author of the plugin/theme
-msgid "David Decker - DECKERWEB"
+msgid "Left, at the beginning"
 msgstr ""
 
-#. Author URI of the plugin/theme
-msgid "https://deckerweb.de/"
+msgid "Less clutter. Familiar menus. Keep moving."
+msgstr ""
+
+msgid "Link from hub"
+msgstr ""
+
+msgid "Link marked groups"
+msgstr ""
+
+msgid "Load more users"
+msgstr ""
+
+msgid "Maintenance"
+msgstr ""
+
+msgid "Mark %s"
+msgstr ""
+
+msgid "Mark template matches"
+msgstr ""
+
+msgid "Mark visible groups"
+msgstr ""
+
+msgid "Matching plugin groups: %d"
+msgstr ""
+
+msgid "Menu access is unavailable for this user"
+msgstr ""
+
+msgid "Menu detected; full plugin compatibility not certified"
+msgstr ""
+
+msgid "Menu structure changed. The original menu remains visible until reviewed."
+msgstr ""
+
+msgid "Move arrows"
+msgstr ""
+
+msgid "Move failed; original menu kept"
+msgstr ""
+
+msgid "Move favorite down"
+msgstr ""
+
+msgid "Move favorite up"
+msgstr ""
+
+msgid "Moved"
+msgstr ""
+
+msgid "Name or menu contains “%s”."
+msgstr ""
+
+msgid "Name or username…"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid "Navigation choices match the saved configuration."
+msgstr ""
+
+msgid "No changes."
+msgstr ""
+
+msgid "No matching groups. Clear the search or change the filter."
+msgstr ""
+
+msgid "No matching pages"
+msgstr ""
+
+msgid "No matching pages."
+msgstr ""
+
+msgid "No matching users."
+msgstr ""
+
+msgid "No plugins in this workspace. Choose All plugins in Personal view."
+msgstr ""
+
+msgid "No supported integrations detected. Enable the list above to review all available integrations."
+msgstr ""
+
+msgid "No users excluded."
+msgstr ""
+
+msgid "Not currently available"
+msgstr ""
+
+msgid "Not currently available; rule retained"
+msgstr ""
+
+msgid "Not detected or disabled by filter"
+msgstr ""
+
+msgid "Not selected"
+msgstr ""
+
+msgid "Nothing has been changed yet. Apply this configuration or discard it."
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open %s"
+msgstr ""
+
+msgid "Open Plugin Hub"
+msgstr ""
+
+msgid "Open a plugin menu or go straight to a page."
+msgstr ""
+
+msgid "Open plugin menu"
+msgstr ""
+
+msgid "Open plugin menu: %s"
+msgstr ""
+
+msgid "Optional labels keep the original plugin and page name visible."
+msgstr ""
+
+msgid "Organize plugin settings with safe submenu moves, an optional Plugin Hub, personal favorites and reviewable rules."
+msgstr ""
+
+msgid "Original menu"
+msgstr ""
+
+msgid "Original menu not found"
+msgstr ""
+
+msgid "Original menu view is active"
+msgstr ""
+
+msgid "Original menu view is active for you for one hour."
+msgstr ""
+
+msgid "Overview"
+msgstr ""
+
+msgid "Overview grid"
+msgstr ""
+
+msgid "Page"
+msgstr ""
+
+msgid "Page registration could not be preserved"
+msgstr ""
+
+msgid "Page unavailable."
+msgstr ""
+
+msgid "Pages with additional subpages are left unchanged. Existing page hooks and capabilities are preserved. An integration status is not a full compatibility test."
+msgstr ""
+
+msgid "Pages: %d"
+msgstr ""
+
+msgid "Paste the exported JSON configuration"
+msgstr ""
+
+msgid "Personal setting for this site. Hiding the bar keeps your attached group in the admin menu and toolbar."
+msgstr ""
+
+msgid "Personal view"
+msgstr ""
+
+msgid "Plugin"
+msgstr ""
+
+msgid "Plugin Hub"
+msgstr ""
+
+msgid "Plugin cards"
+msgstr ""
+
+msgid "Plugin connection"
+msgstr ""
+
+msgid "Plugin groups: %d"
+msgstr ""
+
+msgid "Plugin identity unavailable"
+msgstr ""
+
+msgid "Plugin information"
+msgstr ""
+
+msgid "Plugin navigation configuration"
+msgstr ""
+
+msgid "Plugin navigation is disabled for this account on this site."
+msgstr ""
+
+msgid "Plugin navigation settings are readable"
+msgstr ""
+
+msgid "Plugin navigation settings need review"
+msgstr ""
+
+msgid "Plugin or page name…"
+msgstr ""
+
+msgid "Plugin website"
+msgstr ""
+
+msgid "Preview changes"
+msgstr ""
+
+msgid "Preview import"
+msgstr ""
+
+msgid "Private mode must be boolean."
+msgstr ""
+
+msgid "Profiles"
+msgstr ""
+
+msgid "Read installation again"
+msgstr ""
+
+msgid "Recently visited"
+msgstr ""
+
+msgid "Recommended"
+msgstr ""
+
+msgid "Remember recently visited pages on this site"
+msgstr ""
+
+msgid "Remove all my favorites"
+msgstr ""
+
+msgid "Remove user: %s"
+msgstr ""
+
+msgid "Remove workspace"
+msgstr ""
+
+msgid "Reset my workspace view"
+msgstr ""
+
+msgid "Resume automatic moves"
+msgstr ""
+
+msgid "Reuse your rules"
+msgstr ""
+
+msgid "Review changes"
+msgstr ""
+
+msgid "Review required"
+msgstr ""
+
+msgid "Review structure before bundling"
+msgstr ""
+
+msgid "Right, before the user account"
+msgstr ""
+
+msgid "Rules saved."
+msgstr ""
+
+msgid "Save preferences"
+msgstr ""
+
+msgid "Save rules"
+msgstr ""
+
+msgid "Save short labels"
+msgstr ""
+
+msgid "Saved workspace"
+msgstr ""
+
+msgid "See the release on GitHub."
+msgstr ""
+
+msgid "Select diagnostics to copy"
+msgstr ""
+
+msgid "Select up to 200 users."
+msgstr ""
+
+msgid "Selected"
+msgstr ""
+
+msgid "Selected users"
+msgstr ""
+
+msgid "Selection template"
+msgstr ""
+
+msgid "Setting"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Short labels replace menu and toolbar labels. Original names remain here for reference."
+msgstr ""
+
+msgid "Show group bar"
+msgstr ""
+
+msgid "Show groups"
+msgstr ""
+
+msgid "Show original menu for one hour"
+msgstr ""
+
+msgid "Show the group bar on admin pages"
+msgstr ""
+
+msgid "Show undetected integrations"
+msgstr ""
+
+msgid "Site Health information"
+msgstr ""
+
+msgid "Site building"
+msgstr ""
+
+msgid "Stacked pages"
+msgstr ""
+
+msgid "Star a page to keep it here and in the hub menu."
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Stored navigation settings are invalid. Review the plugin settings before changing them."
+msgstr ""
+
+msgid "Stored navigation settings passed validation. Optional hub, favorites and history features may remain disabled."
+msgstr ""
+
+msgid "Stored rules"
+msgstr ""
+
+msgid "Structure"
+msgstr ""
+
+msgid "Support diagnostics"
+msgstr ""
+
+msgid "Support the project"
+msgstr ""
+
+msgid "Switch plugin"
+msgstr ""
+
+msgid "Target already contains this page; left unchanged"
+msgstr ""
+
+msgid "Target belongs to a bundled group; original menu kept"
+msgstr ""
+
+msgid "Target for %s"
+msgstr ""
+
+msgid "Target menu"
+msgstr ""
+
+msgid "Target menu not found"
+msgstr ""
+
+msgid "Templates suggest matching groups on this installation, not certified plugin sets. Mark rows, then choose an action. Changes take effect only after preview and apply."
+msgstr ""
+
+msgid "The GitHub package could not be prepared. The installed version has been kept."
+msgstr ""
+
+msgid "The GitHub package does not contain the Plugin Submenu Mover plugin file."
+msgstr ""
+
+msgid "The configuration is too large."
+msgstr ""
+
+msgid "The hub is disabled."
+msgstr ""
+
+msgid "The package identity or version does not match a newer Plugin Submenu Mover release."
+msgstr ""
+
+msgid "The package version differs from the offered update. Please check for updates again."
+msgstr ""
+
+msgid "The plugin must be installed in a stable slug directory."
+msgstr ""
+
+msgid "The private update could not be authorized. Check the repository credentials and refresh updates."
+msgstr ""
+
+msgid "The private update download failed. Check credentials and try again."
+msgstr ""
+
+msgid "The update filesystem is unavailable. Please try again."
+msgstr ""
+
+msgid "The update package could not be checked."
+msgstr ""
+
+msgid "The update package has missing or invalid WordPress/PHP requirements."
+msgstr ""
+
+msgid "These controls affect only your account on this site. Shared rules and other users remain unchanged."
+msgstr ""
+
+msgid "These positions apply to this site for all users. Only administrators can change them. Missing anchors use the default position."
+msgstr ""
+
+msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
+msgstr ""
+
+msgid "This report contains versions, integration identifiers and menu status. It contains no site URL, user details or credentials."
+msgstr ""
+
+msgid "Toggle favorite"
+msgstr ""
+
+msgid "Toolbar icon"
+msgstr ""
+
+msgid "Toolbar position"
+msgstr ""
+
+msgid "Try another plugin or page name."
+msgstr ""
+
+msgid "Unavailable account (#%d)"
+msgstr ""
+
+msgid "Undo last change"
+msgstr ""
+
+msgid "Unsaved changes. Preview and apply to update navigation."
+msgstr ""
+
+msgid "Use only marked groups"
+msgstr ""
+
+msgid "User IDs separated by commas"
+msgstr ""
+
+msgid "Uses the groups saved in this workspace that are available on this site."
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Why these groups?"
+msgstr ""
+
+msgid "Workspace"
+msgstr ""
+
+msgid "Workspace name"
+msgstr ""
+
+msgid "Workspace templates"
+msgstr ""
+
+msgid "You cannot change these rules."
+msgstr ""
+
+msgid "Your hub position"
+msgstr ""
+
+msgid "Your navigation on this site"
+msgstr ""
+
+msgid "Your own account cannot be excluded."
+msgstr ""
+
+msgid "Your plugin menus"
+msgstr ""
+
+msgid "Your plugins. Shorter paths."
 msgstr ""

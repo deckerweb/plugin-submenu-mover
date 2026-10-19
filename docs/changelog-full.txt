@@ -1,0 +1,97 @@
+== Changelog ==
+= 2.0.0 · 2026-10-19 =
+* New: Optional Plugin Hub with cards, search and a persistent attached plugin group.
+* New: Personal favorites and short labels, command palette and Site Health integration.
+* New: Position settings, selection templates and searchable user exclusions.
+* Improved: Navigation, settings and vector artwork.
+* Fixed: Detection of ACF and JetFormBuilder.
+* Misc: Requires PHP 8.3 or newer; WordPress 6.7 or newer is retained.
+
+= 2.0.0-beta1 · 2026-10-19 =
+* New: Search site users by name or username and select multiple accounts for exclusion.
+* Improved: Selected accounts stay visible across searches, with individual removal and paged results.
+* Misc: PHP 8.3 or later is now required; WordPress 6.7 or later remains supported.
+
+= 1.6.0-beta9 · 2026-10-19 =
+* New: Exclude individual site users from Plugin Hub, automatic moves and plugin management while preserving their original admin menus.
+* Improved: Review exclusions before applying; prevent self-exclusion and keep installation-specific user IDs out of portable exports.
+
+= 1.6.0-beta8 · 2026-10-19 =
+* New: Personal setting to hide the group bar while retaining the attached menu and toolbar group.
+* Improved: Selection changes are indicated before preview; task templates explain their matches.
+* Improved: Native command data loads only where the WordPress command palette is available.
+* Improved: Rounded arrow icons, small admin images and bilingual banners with documented open-source typography.
+* Fixed: Admin notices and the group bar stay outside the title and slogan header.
+* Fixed: Favorite short labels replace the original visible menu and toolbar label.
+* Fixed: Large valid configuration exports can be imported, with a bounded 1 MiB input limit.
+
+= 1.6.0-beta7 · 2026-10-19 =
+* New: Site-wide hub placement before or after admin menu entries, at the start or after toolbar entries, or before the user account on the right.
+* New: Installation-based group search, selection filters and bulk link, bundle, exclude or only-marked actions.
+* New: Task templates and saved-workspace matching for the groups currently available on this site.
+* Improved: Position changes use preview, apply, undo and portable configuration; missing anchors fall back safely.
+
+= 1.6.0-beta6 · 2026-10-19 =
+* New: Persistent personal workgroup in the sidebar and toolbar, tab-local navigation and explicit detach controls.
+* New: Native WordPress command palette integration for favorites, pages, groups, workspaces and administration.
+* New: Minimal Site Health information and a read-only stored-configuration check.
+* Improved: Keyboard-accessible favorite ordering, optional short labels, separate personal resets and bilingual search vocabulary.
+* Improved: Local structural change counts, before/after workspace previews and vertically centered toolbar icons.
+
+= 1.6.0-beta5 · 2026-10-19 =
+* New: Personal favorites directly below All plugins in the hub sidebar, separated from the current group.
+* New: Current plugin pages in the hub toolbar menu and five local SVG icon choices with Dashicons fallbacks.
+* Improved: Redesigned settings with balanced striped rows, hover/focus feedback and an icon picker.
+* Fixed: Align the Settings button icon, use one sidebar separator and keep a clearly labeled favorites section on the hub.
+
+= 1.6.0-beta4 · 2026-10-19 =
+* Improved: Redesigned plugin cards with local menu icons, page counts and clearer direct links.
+* Improved: Search individual pages, open the first match with Enter, clear with Escape and see helpful empty results.
+* Improved: Pin favorites without reloading, with accessible state and a standard form fallback.
+* Improved: Separate All plugins in the native hub menu; keep personal preferences in a collapsible section.
+
+= 1.6.0-beta3 · 2026-10-19 =
+* Fixed: Show all selected plugins beneath Plugin Hub immediately on the overview, including bundled groups.
+* Improved: Add an explicit Open plugin menu link to each card and explain the contextual navigation.
+* Fixed: Keep the contextual Hub menu expanded when WordPress resolves the original registered parent again.
+
+
+= 1.6.0-beta2 · 2026-10-19 =
+* New: Optional Plugin Hub with cards, contextual submenus and plugin switching.
+* New: Individual favorites in the hub and toolbar, optional local history and workspace templates.
+* New: Preview rule changes and imports, select changed rules and undo the last configuration.
+* Improved: Retain unavailable integrations and restore original groups when accepted menu structures change.
+* Improved: Shared Library 1.0.0, Updater 2.1.0, complete German interface and local documentation.
+* Fixed: Preserve stored settings on uninstall unless deletion is explicitly enabled.
+
+= 1.6.0-beta1 · 2026-10-01 =
+* New: Overview under Tools with direct page links and integration status.
+* New: Site-wide exceptions and target menus for individual integrations.
+* New: Personal original-menu view with automatic expiry after one hour.
+* New: Portable JSON rule export/import and `wp psm rules` configuration output.
+* New: Copyable diagnostics without site URLs or personal user data.
+* Improved: Verify source, destination, child pages, page hooks and capabilities before moving.
+* Improved: Keep registered page hooks, original titles and original capabilities intact.
+* Improved: Apply integration cleanup only when the corresponding move can proceed.
+* Improved: English/German documentation, FAQ, offline help and accessible categorized changelog dialog.
+* Improved: Shared deckerweb GitHub Updater V2 and embedded Plugin Library.
+* Improved: Author-selected arrow artwork with German and English banners.
+* Fixed: Remove obsolete Instant IDE integration and give Schema Pro its own registry key.
+* Fixed: Reject invalid filter data and portable rules without breaking menu processing.
+* Fixed: Preserve the original menu when a move cannot be completed.
+* Misc: PHP 8.0 minimum for shared deckerweb components; WordPress 6.7 minimum retained.
+* Misc: Generated standalone snippet and plugin are built from the same runtime source.
+
+
+= 1.4.0 · 2025-03-28 =
+* New: Initial public release with class-based architecture.
+* Misc: Based on the privately used version since 2022.
+
+= 1.0.0 · 2022-07 =
+* New: Initial private release.
+
+= 0.5.0 · 2022-06 =
+* Misc: Private test version.
+
+= 0.0.0 · 2022-06 =
+* Misc: Development started.

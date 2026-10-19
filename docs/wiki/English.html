@@ -1,0 +1,149 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Plugin Submenu Mover</title></head><body><h1>Plugin Submenu Mover</h1>
+<p>Plugin Submenu Mover started in 2022 with a frustration from my own WordPress work: every additional plugin made the admin menu busier and the setting I needed harder to find. I wanted quicker access to my tools and a clearer workspace. The first solution was a code snippet. In 2025, it became a plugin.</p>
+<p>Version 2.0 expands that idea into a flexible workspace for everyday plugin management. Individual plugin pages can move into suitable submenus. Larger tools can come together in the optional Plugin Hub, with clear cards, quick search and a contextual menu that keeps their original pages within reach.</p>
+<p>Personal favorites, short labels and persistent plugin groups make recurring tasks easier to access. Workspaces help organize different kinds of work. On client sites, individual users can keep their familiar admin while others use the full hub.</p>
+<p>The goal has stayed the same since 2022: spend less time looking for things and make working with WordPress easier.</p>
+<h2>At a Glance</h2>
+<p>- Less menu clutter. More clarity. Organize plugin menus and make room for everyday work.</p>
+<p>- Your plugins. One clear hub. Cards, page search and contextual navigation bring multi-page tools together.</p>
+<p>- Your tools stay within reach. An attached plugin group remains available across other admin pages.</p>
+<p>- Your key pages. Your direct route. Personal favorites with short labels in the hub, admin menu and toolbar.</p>
+<p>- Your workflow. A familiar admin for clients. Exclude individual users while others use the full hub.</p>
+<h2>Installation and first steps</h2>
+<p>1. Install the plugin ZIP on a test site and activate it.</p>
+<p>2. Open Tools → Plugin Submenu Mover, or Settings in the plugin list.</p>
+<p>3. Review automatic moves. Change exceptions or targets, choose Preview changes, then Apply changes.</p>
+<p>4. For the hub, enable Plugin Hub and choose Link from hub or Bundle in hub for the desired groups. Review and apply.</p>
+<p>5. Open Plugin Hub. Use the cards, Find a page, stars and plugin switcher. Configure workspace templates on the settings page.</p>
+<h2>Main features</h2>
+<h3>Existing automatic moves</h3>
+<p>The inherited registry contains 21 integrations. Single-page moves keep the original capabilities and hooks. Extra functional subpages, absent destinations or conflicting registrations cause a move to be skipped. The hub discovers registered non-core top-level menus separately; discovery is not a full compatibility certification.</p>
+<h3>Cards and contextual navigation</h3>
+<p>On the hub overview, the left menu lists all selected plugins alphabetically. Choose one to open its original main page and display its pages below Plugin Hub. Each card also provides Open plugin menu and three direct page links; All pages expands the rest. Opening a plugin attaches its group to the sidebar and toolbar until another group is selected or Detach group is used. It remains available on unrelated admin pages; their real current menu stays active. All plugins opens the overview without detaching. Ordinary admin links carry a tab-local context, so switching in another tab does not change the current page or its forms. A fresh untagged visit uses the last personal group. Use All plugins to return to the overview, or Switch plugin to open another group. WordPress and the target plugin continue to own their pages, forms and callbacks. Cards show safe local menu icons and page counts. Search matches plugin and page names, including expanded destinations; Enter opens the first matching page and Escape clears the query. Favorites update without reloading when JavaScript is available. Personal view groups workspace and history preferences in a collapsible section. The toolbar shows the attached plugin’s allowed pages. Choose its site-wide icon under Tools → Plugin Submenu Mover; preview and apply the change. Five bundled text-free vector icons and a native Dashicons option are available.</p>
+<h3>Choose groups from this installation</h3>
+<p>The settings inventory lists currently permitted plugin menu groups rather than every installed plugin. Search and filter all, selected, unselected or review-required groups. Mark rows individually or mark visible rows, then link, bundle, exclude or use only the marked groups. Marked rows remain marked across filters; actions include hidden marked rows. Nothing changes until Preview and Apply. Newly discovered groups stay unselected. Read installation again refreshes the inventory without automatically selecting plugins. Existing choices for currently unavailable groups remain dormant. Task templates for Maintenance, Content and Site building suggest matches in the local menu names and plugin identities; they do not certify compatibility. A template only marks matches first. Saved workspaces can also mark current matching groups. Exported hub settings and workspaces can be imported on another site through the existing review flow; missing groups remain dormant and imported bundles become links until locally approved.</p>
+<h3>Place the hub in your workplace</h3>
+<p>Administrators choose the site-wide admin menu and toolbar position in hub settings, then preview and apply. The admin menu supports positions before or after a current menu entry. The toolbar supports its default position, the beginning of the left side, after another current left-side entry, or on the right before the user account. Other entries retain their relative order and original children. Missing or unavailable anchors use the default position. Availability can differ by user permissions; the original-view switch temporarily restores the ordinary navigation. Export/import and Undo include positions; older imports leave current placement unchanged.</p>
+<h3>Link or bundle</h3>
+<p>Link mode retains the original menu. Bundle mode hides the original top-level entry while the locally accepted structure remains unchanged; it preserves original registrations and child arrays. If the registered destinations or capabilities change, the original entry returns until the structure is reviewed again. Test bundling with the actual plugins and versions on staging, especially with another menu editor.</p>
+<h3>Preview, import and undo</h3>
+<p>Shared changes are staged for one hour and do not take effect until applied. The review shows before/after values; changed mover rules can be selected individually. A concurrent shared change blocks an outdated apply or undo. Import merges matching IDs and retains unrelated and unavailable rules. Imported bundle selections become links until locally reviewed. Export includes shared hub selections and workspaces, never favorites, history, credentials or deletion consent. Schema 1 imports remain supported.</p>
+<h3>Personal shortcuts and workspaces</h3>
+<p>Stars pin individual registered pages without moving the complete plugin. Favorites are scoped to your user and site and appear in the native toolbar. Recent-page history is off initially; opt in to retain up to 12 registered IDs locally, or clear it. Workspaces filter chosen plugin groups for tasks such as setup, content or maintenance. They do not change permissions. Favorites also appear below All plugins in the hub sidebar. The hub overview keeps a dedicated Favorites section, with an explanation while empty. Sidebar favorites update immediately when pinning; toolbar entries refresh on the next page navigation. Under Your navigation on this site, reorder favorites with keyboard-accessible buttons and assign optional short labels; original names remain in management and supplementary information. Group, favorites and workspace view can each be reset separately without changing shared rules.</p>
+<h3>Native command palette and Site Health</h3>
+<p>Where WordPress provides its native command palette, search for Plugin Hub to open favorites, permitted plugin pages, groups, workspaces, personal controls, settings, Site Health or the temporary original menu. English/German search synonyms cover common tasks. WordPress 6.7 provides the palette in supported editors; its availability elsewhere depends on core. This plugin does not create a second palette. Site Health adds a read-only stored-configuration check and minimal support information: versions, enabled state, counts and schema. It does not report personal favorites, labels, history or page URLs; optional features may remain disabled. After accepting a structure locally, later changes show counts for added/removed pages and changed permissions. Existing beta5 approvals acquire a detailed snapshot on the next preview and apply.</p>
+<h3>Original view and diagnostics</h3>
+<p>Show original menu for one hour temporarily restores the original navigation for your administrator account on this site. Saved rules and preferences remain. Diagnostics describe versions and move outcomes; review custom labels before sharing the report. WP-CLI wp psm rules exports configuration without pretending to inspect a live admin menu.</p>
+<h3>Requirements and shared components</h3>
+<p>WordPress 6.7+ is retained; version 2.0 requires PHP 8.3+. This package embeds deckerweb Library 1.0.0 and Updater 2.1.0; no separate component plugin is required. Optional Library online catalog retrieval defaults off. The updater contacts GitHub for stable release metadata and selected update packages. No telemetry is included. This build is distributed as a plugin ZIP; older snippet artifacts remain separate and must not run alongside it.</p>
+<h3>Group bar and short labels</h3>
+<p>Show or hide the group bar under Your navigation on this site or on the plugin settings page. This personal preference affects only the current account and site; the attached group remains in the admin menu and toolbar. A favorite short label is the complete visible menu label; original names remain in favorite management and supplementary link information. The selection screen indicates unsaved configuration changes and explains template matches before anything is applied. Configuration imports accept up to 1 MiB, covering the plugin’s bounded shared exports.</p>
+<h3>Exclude individual users</h3>
+<p>Under Tools → Plugin Submenu Mover → Plugin Hub → Excluded users, search by name or username and select several accounts. Selected users remain visible while searching or loading more results, and can be removed individually. Preview and apply. Your own account cannot be selected. User IDs remain as a fallback when JavaScript is unavailable. Exclusions apply only to this site and are not exported or imported. Excluded users retain their original menus, roles and personal preferences. This is a workplace preference, not protection against an administrator who can deactivate plugins or edit code.</p>
+<h2>FAQ</h2>
+<h3>Does a cleaner menu change access permissions?</h3>
+<p>No. Each destination retains its original capability. Workspaces and menu visibility are navigation preferences, not access control.</p>
+<h3>Why is a plugin missing or unchanged?</h3>
+<p>The hub lists registered, permitted non-core top-level menus; core menus and post-type roots are excluded. A page may be unavailable to your account, externally linked or not registered. Existing automatic moves use their curated registry. Rules for unavailable integrations remain stored.</p>
+<h3>Can I bundle ten plugins?</h3>
+<p>The hub supports multiple selected groups, including ten or more. Cards and the context menu use the same registered destinations. The number of groups is not a guarantee of compatibility with arbitrary third-party versions.</p>
+<h3>What happens after a target plugin update?</h3>
+<p>A changed registered menu structure prevents hiding that original group until reviewed again. Version and identity are shown when the callback’s owning installed plugin can be identified. Menu discovery does not prove every plugin function was tested.</p>
+<h3>Does it work with another menu editor?</h3>
+<p>Let one tool own each group. Another editor can change registrations or visual selection. Use link mode or original view while diagnosing conflicts; universal compatibility is not promised.</p>
+<h3>What about Multisite?</h3>
+<p>Rules, hub selections and workspaces belong to each site; favorites and history belong to each user and site. Network Admin menus are untouched. Network activation uses each site’s own settings; newly created sites start with defaults.</p>
+<h3>What data remains after deactivation or uninstall?</h3>
+<p>Deactivation preserves configuration. Uninstall removes temporary preview, undo and original-view metadata. Site settings and personal shortcuts remain by default; the explicit deletion switch removes this plugin’s data for the site. On network uninstall each site’s choice is respected. Shared Library cleanup follows its last-host policy. Other plugins and their content remain untouched.</p>
+<p>[FAQ by topic](docs/FAQ.md)</p>
+<h3>Can I hide the group bar without detaching a plugin?</h3>
+<p>Yes. Turn off Show the group bar on admin pages in the personal settings. The sidebar and toolbar keep the attached group. Other accounts are unaffected.</p>
+<h2>Changelog</h2>
+<h3>2.0.0 · 2026-10-19</h3>
+<p>- New: Optional Plugin Hub with cards, search and a persistent attached plugin group.</p>
+<p>- New: Personal favorites and short labels, command palette and Site Health integration.</p>
+<p>- New: Position settings, selection templates and searchable user exclusions.</p>
+<p>- Improved: Navigation, settings and vector artwork.</p>
+<p>- Fixed: Detection of ACF and JetFormBuilder.</p>
+<p>- Misc: Requires PHP 8.3 or newer; WordPress 6.7 or newer is retained.</p>
+<h3>2.0.0-beta1 · 2026-10-19</h3>
+<p>- New: Search site users by name or username and select multiple accounts for exclusion.</p>
+<p>- Improved: Selected accounts stay visible across searches, with individual removal and paged results.</p>
+<p>- Misc: PHP 8.3 or later is now required; WordPress 6.7 or later remains supported.</p>
+<h3>1.6.0-beta9 · 2026-10-19</h3>
+<p>- New: Exclude individual site users from Plugin Hub, automatic moves and plugin management while preserving their original admin menus.</p>
+<p>- Improved: Review exclusions before applying; prevent self-exclusion and keep installation-specific user IDs out of portable exports.</p>
+<h3>1.6.0-beta8 · 2026-10-19</h3>
+<p>- New: Personal setting to hide the group bar while retaining the attached menu and toolbar group.</p>
+<p>- Improved: Selection changes are indicated before preview; task templates explain their matches.</p>
+<p>- Improved: Native command data loads only where the WordPress command palette is available.</p>
+<p>- Improved: Rounded arrow icons, small admin images and bilingual banners with documented open-source typography.</p>
+<p>- Fixed: Admin notices and the group bar stay outside the title and slogan header.</p>
+<p>- Fixed: Favorite short labels replace the original visible menu and toolbar label.</p>
+<p>- Fixed: Large valid configuration exports can be imported, with a bounded 1 MiB input limit.</p>
+<h3>1.6.0-beta7 · 2026-10-19</h3>
+<p>- New: Site-wide hub placement before or after admin menu entries, at the start or after toolbar entries, or before the user account on the right.</p>
+<p>- New: Installation-based group search, selection filters and bulk link, bundle, exclude or only-marked actions.</p>
+<p>- New: Task templates and saved-workspace matching for the groups currently available on this site.</p>
+<p>- Improved: Position changes use preview, apply, undo and portable configuration; missing anchors fall back safely.</p>
+<h3>1.6.0-beta6 · 2026-10-19</h3>
+<p>- New: Persistent personal workgroup in the sidebar and toolbar, tab-local navigation and explicit detach controls.</p>
+<p>- New: Native WordPress command palette integration for favorites, pages, groups, workspaces and administration.</p>
+<p>- New: Minimal Site Health information and a read-only stored-configuration check.</p>
+<p>- Improved: Keyboard-accessible favorite ordering, optional short labels, separate personal resets and bilingual search vocabulary.</p>
+<p>- Improved: Local structural change counts, before/after workspace previews and vertically centered toolbar icons.</p>
+<h3>1.6.0-beta5 · 2026-10-19</h3>
+<p>- New: Personal favorites directly below All plugins in the hub sidebar, separated from the current group.</p>
+<p>- New: Current plugin pages in the hub toolbar menu and five local SVG icon choices with Dashicons fallbacks.</p>
+<p>- Improved: Redesigned settings with balanced striped rows, hover/focus feedback and an icon picker.</p>
+<p>- Fixed: Align the Settings button icon, use one sidebar separator and keep a clearly labeled favorites section on the hub.</p>
+<h3>1.6.0-beta4 · 2026-10-19</h3>
+<p>- Improved: Redesigned plugin cards with local menu icons, page counts and clearer direct links.</p>
+<p>- Improved: Search individual pages, open the first match with Enter, clear with Escape and see helpful empty results.</p>
+<p>- Improved: Pin favorites without reloading, with accessible state and a standard form fallback.</p>
+<p>- Improved: Separate All plugins in the native hub menu; keep personal preferences in a collapsible section.</p>
+<h3>1.6.0-beta3 · 2026-10-19</h3>
+<p>- Fixed: Show all selected plugins beneath Plugin Hub immediately on the overview, including bundled groups.</p>
+<p>- Improved: Add an explicit Open plugin menu link to each card and explain the contextual navigation.</p>
+<p>- Fixed: Keep the contextual Hub menu expanded when WordPress resolves the original registered parent again.</p>
+<h3>1.6.0-beta2 · 2026-10-19</h3>
+<p>- New: Optional Plugin Hub with cards, contextual submenus and plugin switching.</p>
+<p>- New: Individual favorites in the hub and toolbar, optional local history and workspace templates.</p>
+<p>- New: Preview rule changes and imports, select changed rules and undo the last configuration.</p>
+<p>- Improved: Retain unavailable integrations and restore original groups when accepted menu structures change.</p>
+<p>- Improved: Shared Library 1.0.0, Updater 2.1.0, complete German interface and local documentation.</p>
+<p>- Fixed: Preserve stored settings on uninstall unless deletion is explicitly enabled.</p>
+<h3>1.6.0-beta1 · 2026-10-01</h3>
+<p>- New: Overview under Tools with direct page links and integration status.</p>
+<p>- New: Site-wide exceptions and target menus for individual integrations.</p>
+<p>- New: Personal original-menu view with automatic expiry after one hour.</p>
+<p>- New: Portable JSON rule export/import and `wp psm rules` configuration output.</p>
+<p>- New: Copyable diagnostics without site URLs or personal user data.</p>
+<p>- Improved: Verify source, destination, child pages, page hooks and capabilities before moving.</p>
+<p>- Improved: Keep registered page hooks, original titles and original capabilities intact.</p>
+<p>- Improved: Apply integration cleanup only when the corresponding move can proceed.</p>
+<p>- Improved: English/German documentation, FAQ, offline help and accessible categorized changelog dialog.</p>
+<p>- Improved: Shared deckerweb GitHub Updater V2 and embedded Plugin Library.</p>
+<p>- Improved: Author-selected arrow artwork with German and English banners.</p>
+<p>- Fixed: Remove obsolete Instant IDE integration and give Schema Pro its own registry key.</p>
+<p>- Fixed: Reject invalid filter data and portable rules without breaking menu processing.</p>
+<p>- Fixed: Preserve the original menu when a move cannot be completed.</p>
+<p>- Misc: PHP 8.0 minimum for shared deckerweb components; WordPress 6.7 minimum retained.</p>
+<p>- Misc: Generated standalone snippet and plugin are built from the same runtime source.</p>
+<h3>1.4.0 · 2025-03-28</h3>
+<p>- New: Initial public release with class-based architecture.</p>
+<p>- Misc: Based on the privately used version since 2022.</p>
+<h3>1.0.0 · 2022-07</h3>
+<p>- New: Initial private release.</p>
+<h3>0.5.0 · 2022-06</h3>
+<p>- Misc: Private test version.</p>
+<h3>0.0.0 · 2022-06</h3>
+<p>- Misc: Development started.</p>
+<h2>Author and scope</h2>
+<p>Developed by David Decker – DECKERWEB. Started in 2022 as a code snippet for a personal need; released as a plugin in 2025. Version 2.0 adds a flexible workspace for everyday plugin management.</p>
+<h2>Support and security</h2>
+<p>[Issues](https://github.com/deckerweb/plugin-submenu-mover/issues) · [Private security report](https://github.com/deckerweb/plugin-submenu-mover/security/advisories/new) · [Ko-fi](https://ko-fi.com/deckerweb) · [PayPal](https://paypal.me/deckerweb)</p>
+<p>Report security vulnerabilities privately through the repository’s Security reporting channel. Do not post credentials or exploit details in public issues. If the private report option is unavailable, use GitHub’s private contact options; do not publish sensitive details.</p>
+<h2>License and origin</h2>
+<p>Copyright © 2022–2026 David Decker – DECKERWEB. GPL v2 or later. SPDX: GPL-2.0-or-later.</p>
+<p>Bundled deckerweb Library and Updater: David Decker – DECKERWEB, GPL-2.0-or-later. Approved arrow motif retained. Banner text uses Manrope (SIL OFL 1.1); see assets/OFL-Manrope.txt. Graphics are local.</p></body></html>

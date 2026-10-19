@@ -1,0 +1,97 @@
+== Changelog ==
+= 2.0.0 · 2026-10-19 =
+* Neu: Optionaler Plugin-Hub mit Karten, Suche und dauerhaft eingehängter Plugin-Gruppe.
+* Neu: Persönliche Favoriten und Kurzbezeichnungen, Befehlspalette und Site Health.
+* Neu: Positionswahl, Auswahlvorlagen und durchsuchbare Benutzer-Ausnahmen.
+* Verbessert: Navigation, Einstellungen und Vektorgrafiken.
+* Behoben: Erkennung von ACF und JetFormBuilder.
+* Sonstiges: Erfordert PHP 8.3 oder neuer; WordPress weiterhin 6.7 oder neuer.
+
+= 2.0.0-beta1 · 2026-10-19 =
+* Neu: Benutzer dieser Website nach Namen oder Benutzernamen suchen und mehrfach zum Ausschluss auswählen.
+* Verbessert: Ausgewählte Konten bleiben beim Suchen sichtbar; einzelne Konten entfernen und weitere Treffer nachladen.
+* Sonstiges: PHP 8.3 oder höher ist jetzt erforderlich; WordPress 6.7 oder höher bleibt unterstützt.
+
+= 1.6.0-beta9 · 2026-10-19 =
+* Neu: Einzelne Benutzer dieser Website vom Plugin-Hub, automatischen Verschiebungen und der Plugin-Verwaltung ausschließen; ursprüngliche Adminmenüs bleiben erhalten.
+* Verbessert: Benutzer-Ausnahmen vorab prüfen; Selbst-Ausschluss verhindern und websitebezogene Benutzer-IDs aus übertragbaren Exporten heraushalten.
+
+= 1.6.0-beta8 · 2026-10-19 =
+* Neu: Persönliche Einstellung zum Ausblenden der Gruppenleiste; die eingehängte Gruppe bleibt im Menü und in der Toolbar erhalten.
+* Verbessert: Noch nicht übernommene Auswahländerungen werden angezeigt; Aufgabenvorlagen erklären ihre Treffer.
+* Verbessert: Native Befehlsdaten werden nur bei verfügbarer WordPress-Befehlspalette geladen.
+* Verbessert: Abgerundete Pfeil-Icons, kleine Admin-Grafiken und zweisprachige Banner mit dokumentierter Open-Source-Schrift.
+* Behoben: Admin-Hinweise und Gruppenleiste bleiben außerhalb des Headers mit Titel und Slogan.
+* Behoben: Favoriten-Kurzbezeichnungen ersetzen das ursprüngliche sichtbare Label im Menü und in der Toolbar.
+* Behoben: Große gültige Konfigurationsexporte lassen sich importieren; die Eingabe bleibt auf 1 MiB begrenzt.
+
+= 1.6.0-beta7 · 2026-10-19 =
+* Neu: Websiteweite Hub-Position vor oder nach Adminmenü-Einträgen, am Anfang oder nach Toolbar-Einträgen sowie rechts vor dem Benutzerkonto.
+* Neu: Installationsbezogene Gruppensuche, Auswahlfilter und gemeinsame Aktionen zum Verlinken, Bündeln, Ausschließen oder Verwenden nur markierter Gruppen.
+* Neu: Aufgabenvorlagen und gespeicherte Arbeitsansichten schlagen aktuell vorhandene Gruppen vor.
+* Verbessert: Positionsänderungen mit Vorschau, Übernehmen, Rückgängig und portabler Konfiguration; sichere Standardposition bei fehlendem Bezugspunkt.
+
+= 1.6.0-beta6 · 2026-10-19 =
+* Neu: Dauerhaft persönlich eingehängte Gruppe links und in der Toolbar, Tab-Kontext und ausdrückliches Lösen.
+* Neu: Native WordPress-Befehlspalette für Favoriten, Seiten, Gruppen, Arbeitsansichten und Verwaltung.
+* Neu: Sparsame Informationen im Website-Zustand und lesende Prüfung der gespeicherten Konfiguration.
+* Verbessert: Tastaturbedienbare Favoritensortierung, optionale Kurzbezeichnungen, getrennte persönliche Rücksetzungen und zweisprachige Suchbegriffe.
+* Verbessert: Lokale Strukturänderungen zählen, Arbeitsansichten vorher/nachher prüfen und Toolbar-Symbole vertikal zentrieren.
+
+= 1.6.0-beta5 · 2026-10-19 =
+* Neu: Persönliche Favoriten direkt unter Alle Plugins im Hub-Menü, getrennt von der aktuellen Gruppe.
+* Neu: Seiten des aktuellen Plugins im Hub-Toolbar-Menü und fünf lokale SVG-Symbole mit Dashicons-Rückfall.
+* Verbessert: Überarbeitete Einstellungen mit ausgewogenen wechselnden Zeilenfarben, Hover-/Fokushervorhebung und Symbolauswahl.
+* Behoben: Einstellungen-Symbol ausrichten, einfachen Menütrenner verwenden und Favoritenbereich im Hub klar sichtbar halten.
+
+= 1.6.0-beta4 · 2026-10-19 =
+* Verbessert: Neu gestaltete Plugin-Karten mit lokalen Menüsymbolen, Seitenanzahl und klareren Direktlinks.
+* Verbessert: Einzelne Seiten suchen, ersten Treffer mit Enter öffnen, mit Escape zurücksetzen und verständliche leere Ergebnisse anzeigen.
+* Verbessert: Favoriten ohne Neuladen anheften, mit zugänglichem Zustand und regulärem Formular als Rückfall.
+* Verbessert: Alle Plugins im nativen Hub-Menü absetzen; persönliche Einstellungen in einem aufklappbaren Bereich bündeln.
+
+= 1.6.0-beta3 · 2026-10-19 =
+* Behoben: Alle ausgewählten Plugins erscheinen bereits auf der Übersicht unter Plugin-Hub, einschließlich gebündelter Gruppen.
+* Verbessert: Jede Karte bietet Plugin-Menü öffnen; ein Hinweis erklärt die Kontext-Navigation.
+* Behoben: Kontext-Menü im Hub bleibt geöffnet, wenn WordPress das ursprünglich registrierte Hauptmenü erneut ermittelt.
+
+
+= 1.6.0-beta2 · 2026-10-19 =
+* Neu: Optionaler Plugin-Hub mit Karten, Kontext-Untermenüs und Plugin-Wechsler.
+* Neu: Einzelne Favoriten in Hub und Toolbar, optionaler lokaler Verlauf und Vorlagen für Arbeitsansichten.
+* Neu: Änderungen und Importe vorab prüfen, geänderte Regeln auswählen und die letzte Konfiguration rückgängig machen.
+* Verbessert: Nicht verfügbare Integrationen bleiben erhalten; geänderte Menüstrukturen lassen ursprüngliche Gruppen wieder erscheinen.
+* Verbessert: Gemeinsame Library 1.0.0, Updater 2.1.0, vollständige deutsche Oberfläche und lokale Dokumentation.
+* Behoben: Gespeicherte Einstellungen bleiben bei Deinstallation erhalten, solange die Löschoption ausgeschaltet ist.
+
+= 1.6.0-beta1 · 2026-10-01 =
+* Neu: Übersicht unter Werkzeuge mit direkten Seitenlinks und Integrationsstatus.
+* Neu: Website-weite Ausnahmen und Zielmenüs für einzelne Integrationen.
+* Neu: Persönliche Originalmenü-Ansicht mit automatischem Ablauf nach einer Stunde.
+* Neu: Übertragbarer JSON-Export/-Import und Konfigurationsausgabe mit `wp psm rules`.
+* Neu: Kopierbare Diagnose ohne Website-URLs oder persönliche Benutzerangaben.
+* Verbessert: Quelle, Ziel, Unterseiten, Seiten-Hooks und Berechtigungen vor dem Verschieben prüfen.
+* Verbessert: Registrierte Seiten-Hooks, ursprüngliche Seitentitel und Berechtigungen erhalten.
+* Verbessert: Bereinigungen nur ausführen, wenn die zugehörige Integration verschoben werden kann.
+* Verbessert: Deutsche/englische Dokumentation, FAQ, Offline-Hilfe und zugänglicher kategorisierter Änderungsverlauf.
+* Verbessert: Gemeinsamer deckerweb GitHub Updater V2 und eingebettete Plugin Library.
+* Verbessert: Vom Autor gewähltes Pfeil-Motiv mit deutschen und englischen Bannern.
+* Behoben: Veraltete Instant-IDE-Integration entfernen und Schema Pro einen eigenen Registrierungsschlüssel geben.
+* Behoben: Ungültige Filterdaten und übertragbare Regeln abweisen, ohne die Menüverarbeitung abzubrechen.
+* Behoben: Ursprüngliches Menü erhalten, wenn das Verschieben nicht abgeschlossen werden kann.
+* Sonstiges: PHP 8.0 als Mindestversion für gemeinsame deckerweb-Komponenten; WordPress 6.7 bleibt Mindestversion.
+* Sonstiges: Eigenständiges Snippet und Plugin werden aus demselben Laufzeit-Quellcode gebaut.
+
+
+= 1.4.0 · 2025-03-28 =
+* Neu: Erste öffentliche Version mit klassenbasierter Architektur.
+* Sonstiges: Grundlage ist die seit 2022 privat verwendete Version.
+
+= 1.0.0 · 2022-07 =
+* Neu: Erste private Version.
+
+= 0.5.0 · 2022-06 =
+* Sonstiges: Private Testversion.
+
+= 0.0.0 · 2022-06 =
+* Sonstiges: Entwicklungsbeginn.

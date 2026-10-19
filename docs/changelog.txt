@@ -1,0 +1,25 @@
+== Changelog ==
+= 2.0.0 · 2026-10-19 =
+* New: Optional Plugin Hub with cards, search and a persistent attached plugin group.
+* New: Personal favorites and short labels, command palette and Site Health integration.
+* New: Position settings, selection templates and searchable user exclusions.
+* Improved: Navigation, settings and vector artwork.
+* Fixed: Detection of ACF and JetFormBuilder.
+* Misc: Requires PHP 8.3 or newer; WordPress 6.7 or newer is retained.
+
+
+
+
+
+
+
+
+
+
+
+= 1.4.0 · 2025-03-28 =
+* New: Initial public release with class-based architecture.
+* Misc: Based on the privately used version since 2022.
+
+= 1.0.0 · 2022-07 =
+* New: Initial private release.

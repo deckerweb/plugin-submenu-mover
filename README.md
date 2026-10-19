@@ -1,193 +1,176 @@
 # Plugin Submenu Mover
 
-Move some plugin's single settings pages from top-level position to submenu under Tools, Settings or were appropriate. Result: cleaner admin screen, less confusing.
+[Deutsch](README.de.md)
 
-![Multisite Toolbar Additions plugin banner](https://repository-images.githubusercontent.com/955324356/7cdf9dc9-d028-4732-a5d2-ae855d2855c3)
+![Plugin Submenu Mover](assets/banner-github-en.png)
 
-* Contributors: [David Decker](https://github.com/deckerweb), [contributors](https://github.com/deckerweb/plugin-submenu-mover/graphs/contributors)
-* Tags: plugins, submenu, move, admin menu, wp-admin
-* Requires at least: 6.7
-* Requires PHP: 7.4
-* Stable tag: [main](https://github.com/deckerweb/plugin-submenu-mover/releases/latest)
-* Donate link: https://paypal.me/deckerweb
-* License: GPL v2 or later
+## About
 
----
+Plugin Submenu Mover started in 2022 with a frustration from my own WordPress work: every additional plugin made the admin menu busier and the setting I needed harder to find. I wanted quicker access to my tools and a clearer workspace. The first solution was a code snippet. In 2025, it became a plugin.
 
-[Support Project](#support-the-project) | [Installation](#installation) | [Updates](#updates) | [Description](#description) | [Custom Tweaks](#custom-tweaks) | [FAQ](#frequently-asked-questions) | [Changelog](#changelog) | [Plugin's Backstory](#plugins-backstory) | [Plugin Scope / Disclaimer](#plugin-scope--disclaimer)
+Version 2.0 expands that idea into a flexible workspace for everyday plugin management. Individual plugin pages can move into suitable submenus. Larger tools can come together in the optional Plugin Hub, with clear cards, quick search and a contextual menu that keeps their original pages within reach.
 
----
+Personal favorites, short labels and persistent plugin groups make recurring tasks easier to access. Workspaces help organize different kinds of work. On client sites, individual users can keep their familiar admin while others use the full hub.
 
-## Support the Project 
+The goal has stayed the same since 2022: spend less time looking for things and make working with WordPress easier.
 
-If you find this project helpful, consider showing your support by buying me a coffee! Your contribution helps me keep developing and improving this plugin.
+**2.0.0** · WordPress **6.7+** · PHP **8.3+**
 
-Enjoying the plugin? Feel free to treat me to a cup of coffee ☕🙂 through the following options:
+[FAQ](#faq) · [Changelog](#changelog) · [GitHub](https://github.com/deckerweb/plugin-submenu-mover)
 
-- [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W81BNTZE)
-- [Buy me a coffee](https://buymeacoffee.com/daveshine)
-- [PayPal donation](https://paypal.me/deckerweb)
-- [Join my **newsletter** for DECKERWEB WordPress Plugins](https://eepurl.com/gbAUUn)
+## Contents
 
----
+- [At a Glance](#at-a-glance)
+- [Installation and first steps](#installation)
+- [Main features](#features)
+- [FAQ](#faq)
+- [Changelog](#changelog)
+- [Support and security](#support)
 
-## Installation 
+<a id="at-a-glance"></a>
+## At a Glance
 
-#### **Quick Install – as Plugin**
-[![Download Plugin](https://raw.githubusercontent.com/deckerweb/plugin-submenu-mover/refs/heads/main/assets/button-download-plugin.png)](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip)
+- Less menu clutter. More clarity. Organize plugin menus and make room for everyday work.
+- Your plugins. One clear hub. Cards, page search and contextual navigation bring multi-page tools together.
+- Your tools stay within reach. An attached plugin group remains available across other admin pages.
+- Your key pages. Your direct route. Personal favorites with short labels in the hub, admin menu and toolbar.
+- Your workflow. A familiar admin for clients. Exclude individual users while others use the full hub.
 
-1. **Download ZIP:** [**plugin-submenu-mover.zip**](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip)
-2. Upload via WordPress Plugins > Add New > Upload Plugin
-3. Once activated, you’ll should see the integrated plugins _under_ their defined new "home" 😉
+<a id="installation"></a>
+## Installation and first steps
 
-#### **Alternative: Use as Code Snippet**
-[![Download Code Snippet](https://raw.githubusercontent.com/deckerweb/plugin-submenu-mover/refs/heads/main/assets/button-download-snippet.png)](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/ddw-plugin-submenu-mover.code-snippets.json)  
-1. Below, download the appropriate snippet version
-2. Activate or deactivate in your snippets plugin
+1. Install the plugin ZIP on a test site and activate it.
+2. Open Tools → Plugin Submenu Mover, or Settings in the plugin list.
+3. Review automatic moves. Change exceptions or targets, choose Preview changes, then Apply changes.
+4. For the hub, enable Plugin Hub and choose Link from hub or Bundle in hub for the desired groups. Review and apply.
+5. Open Plugin Hub. Use the cards, Find a page, stars and plugin switcher. Configure workspace templates on the settings page.
 
-[**Download .json**](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/ddw-plugin-submenu-mover.code-snippets.json) version for: _Code Snippets_ (free & Pro), _Advanced Scripts_ (Premium), _Scripts Organizer_ (Premium)  
-➔ just use their elegant script import features 
-➔ in _Scripts Organizer_ use the "Code Snippets Import" 
+<a id="features"></a>
+## Main features
 
-For all other snippet manager plugins just use our plugin's main .php file [`plugin-submenu-mover.php`](https://github.com/deckerweb/plugin-submenu-mover/blob/master/plugin-submenu-mover.php) and use its content as snippet (bevor saving your snippet: please check for your plugin if the opening php tag needs to be removed or not!).
+### Existing automatic moves
 
-➔ Please decide for one of both alternatives!
+The inherited registry contains 21 integrations. Single-page moves keep the original capabilities and hooks. Extra functional subpages, absent destinations or conflicting registrations cause a move to be skipped. The hub discovers registered non-core top-level menus separately; discovery is not a full compatibility certification.
 
-### Tested Compatibility
-* **WordPress**: 6.7.2 ... 6.8.1
-* **PHP**: 8.0 – 8.3
-* _(... used in production since 2022!)_
+### Cards and contextual navigation
 
----
+On the hub overview, the left menu lists all selected plugins alphabetically. Choose one to open its original main page and display its pages below Plugin Hub. Each card also provides Open plugin menu and three direct page links; All pages expands the rest. Opening a plugin attaches its group to the sidebar and toolbar until another group is selected or Detach group is used. It remains available on unrelated admin pages; their real current menu stays active. All plugins opens the overview without detaching. Ordinary admin links carry a tab-local context, so switching in another tab does not change the current page or its forms. A fresh untagged visit uses the last personal group. Use All plugins to return to the overview, or Switch plugin to open another group. WordPress and the target plugin continue to own their pages, forms and callbacks. Cards show safe local menu icons and page counts. Search matches plugin and page names, including expanded destinations; Enter opens the first matching page and Escape clears the query. Favorites update without reloading when JavaScript is available. Personal view groups workspace and history preferences in a collapsible section. The toolbar shows the attached plugin’s allowed pages. Choose its site-wide icon under Tools → Plugin Submenu Mover; preview and apply the change. Five bundled text-free vector icons and a native Dashicons option are available.
 
-## Updates 
+### Choose groups from this installation
 
-#### For Plugin Version:
+The settings inventory lists currently permitted plugin menu groups rather than every installed plugin. Search and filter all, selected, unselected or review-required groups. Mark rows individually or mark visible rows, then link, bundle, exclude or use only the marked groups. Marked rows remain marked across filters; actions include hidden marked rows. Nothing changes until Preview and Apply. Newly discovered groups stay unselected. Read installation again refreshes the inventory without automatically selecting plugins. Existing choices for currently unavailable groups remain dormant. Task templates for Maintenance, Content and Site building suggest matches in the local menu names and plugin identities; they do not certify compatibility. A template only marks matches first. Saved workspaces can also mark current matching groups. Exported hub settings and workspaces can be imported on another site through the existing review flow; missing groups remain dormant and imported bundles become links until locally approved.
 
-1) Alternative 1: Just download a new [ZIP file](https://github.com/deckerweb/plugin-submenu-mover/releases/latest/download/plugin-submenu-mover.zip) (see above), upload and override existing version. Done.
+### Place the hub in your workplace
 
-2) Alternative 2: Use the (free) [**_Git Updater_ plugin**](https://git-updater.com/) and get updates automatically.
+Administrators choose the site-wide admin menu and toolbar position in hub settings, then preview and apply. The admin menu supports positions before or after a current menu entry. The toolbar supports its default position, the beginning of the left side, after another current left-side entry, or on the right before the user account. Other entries retain their relative order and original children. Missing or unavailable anchors use the default position. Availability can differ by user permissions; the original-view switch temporarily restores the ordinary navigation. Export/import and Undo include positions; older imports leave current placement unchanged.
 
-3) Alternative 3: Upcoming! – In future I will built-in our own deckerweb updater. This is currently being worked on for my plugins. Stay tuned!
+### Link or bundle
 
-#### For Code Snippet Version:
+Link mode retains the original menu. Bundle mode hides the original top-level entry while the locally accepted structure remains unchanged; it preserves original registrations and child arrays. If the registered destinations or capabilities change, the original entry returns until the structure is reviewed again. Test bundling with the actual plugins and versions on staging, especially with another menu editor.
 
-Just manually: Download the latest Snippet version (see above) and import it in your favorite snippets manager plugin. – You can delete the old snippet; then just activate the new one. Done.
+### Preview, import and undo
 
----
+Shared changes are staged for one hour and do not take effect until applied. The review shows before/after values; changed mover rules can be selected individually. A concurrent shared change blocks an outdated apply or undo. Import merges matching IDs and retains unrelated and unavailable rules. Imported bundle selections become links until locally reviewed. Export includes shared hub selections and workspaces, never favorites, history, credentials or deletion consent. Schema 1 imports remain supported.
 
-## Description 
+### Personal shortcuts and workspaces
 
-### How this Plugin Works
+Stars pin individual registered pages without moving the complete plugin. Favorites are scoped to your user and site and appear in the native toolbar. Recent-page history is off initially; opt in to retain up to 12 registered IDs locally, or clear it. Workspaces filter chosen plugin groups for tasks such as setup, content or maintenance. They do not change permissions. Favorites also appear below All plugins in the hub sidebar. The hub overview keeps a dedicated Favorites section, with an explanation while empty. Sidebar favorites update immediately when pinning; toolbar entries refresh on the next page navigation. Under Your navigation on this site, reorder favorites with keyboard-accessible buttons and assign optional short labels; original names remain in management and supplementary information. Group, favorites and workspace view can each be reset separately without changing shared rules.
 
-#### Explanation (Kind of)
+### Native command palette and Site Health
 
-1. It takes the top-level admin menu items of _some_ plugins and moves these pages as _submenus_ to an already existing admin pages. For example the popular "The SEO Framework" plugin does not need a top-level item – it's just ONE admin page – and can reside under regular WordPress general settings without any issues. That's the main concept.
-2. The currently "integrated" plugins were tested by myself if everything works. The functionaly of that specific plugin admin page must still work as submenu, if that is the case, moving makes total sense. I use this plugin/snippet for some years already without any issues and I developed it for myself.
-3. Only plugins get integrated where it makes sense: It must be the only admin page that this specific plugin has, and there should be relevant stuff on it. Promotional upsell/marketing/dashboard pages could be "removed" (even via CSS), these do _need_ to be moved.
-4. The "moving" is just a simple WordPress default function, nothing special. There are no settings, not settings page itself, nothing of this stuff. It's all totally lightweight and simple and elegant. You can activate the plugin / snippet at any time.
+Where WordPress provides its native command palette, search for Plugin Hub to open favorites, permitted plugin pages, groups, workspaces, personal controls, settings, Site Health or the temporary original menu. English/German search synonyms cover common tasks. WordPress 6.7 provides the palette in supported editors; its availability elsewhere depends on core. This plugin does not create a second palette. Site Health adds a read-only stored-configuration check and minimal support information: versions, enabled state, counts and schema. It does not report personal favorites, labels, history or page URLs; optional features may remain disabled. After accepting a structure locally, later changes show counts for added/removed pages and changed permissions. Existing beta5 approvals acquire a detailed snapshot on the next preview and apply.
 
-### Currently Supported/ Integrated Plugins (as of March 2025)
+### Original view and diagnostics
 
-* _The SEO Framework_ (free - wordpress.org) ➞ now under Settings
-* _Limit Login Attempts_ Reloaded (free - wordpress.org) ➞ now under Settings
-* _PublishPress Future_ (free - wordpress.org) (formerly: Post Expirator) ➞ now under Settings
-* _Labinator Minimal Maintenance Mode_ (free - wordpress.org) ➞ now under Tools
-* _WP Toolbelt_ (free - wordpress.org) ➞ now under Tools
-* _FluentSnippets_ (free - wordpress.org) ➞ now under Tools
-* _Maintenance_ (free - wordpress.org) ➞ now under Tools
-* _Related Posts Thumbnails_ (free - wordpress.org) ➞ now under Appearance
-* _SearchWP Live Search_ (free - wordpress.org) ➞ now under Settings
-* _Breakdance Reading Time Calculator_ (free - wordpress.org) ➞ now under "Breakdance"
-* _Cookie Notice_ (free - wordpress.org) ➞ now under Settings
-* _Real Cookie Banner_ (free - wordpress.org) ➞ now under Settings
-* _Real Cookie Banner Pro_ (Premium) ➞ now under Settings
-* _DevKit Pro/free_ (by DPlugins.com) ➞ now under Tools
-* _WPCodeBox_ (Premium) ➞ now under Tools
-* _OxyProps_ / _BricksProps_ (Premium) ➞ now under Tools
-* _Revolution Slider_ (Premium) ➞ now under Appearance
-* _Instant IDE_ (Premium) ➞ now under Tools
-* _Schema Pro_ (Premium) ➞ now under Settings
-* _Elements Hive Pro_ (Premium) ➞ now under "Breakdance"
-* _Envato Market_ (API Plugin Envato Marketplaces like themeforest and codecanyon)
+Show original menu for one hour temporarily restores the original navigation for your administrator account on this site. Saved rules and preferences remain. Diagnostics describe versions and move outcomes; review custom labels before sharing the report. WP-CLI wp psm rules exports configuration without pretending to inspect a live admin menu.
 
-NOTE: An integration can no longer work at any time should any of these plugins change something. Please use at your own risk.
+### Requirements and shared components
 
----
+WordPress 6.7+ is retained; version 2.0 requires PHP 8.3+. This package embeds deckerweb Library 1.0.0 and Updater 2.1.0; no separate component plugin is required. Optional Library online catalog retrieval defaults off. The updater contacts GitHub for stable release metadata and selected update packages. No telemetry is included. Distributed exclusively as an installable plugin ZIP.
 
-## Custom Tweaks
+### Group bar and short labels
 
-#### via Filter (for developers):
+Show or hide the group bar under Your navigation on this site or on the plugin settings page. This personal preference affects only the current account and site; the attached group remains in the admin menu and toolbar. A favorite short label is the complete visible menu label; original names remain in favorite management and supplementary link information. The selection screen indicates unsaved configuration changes and explains template matches before anything is applied. Configuration imports accept up to 1 MiB, covering the plugin’s bounded shared exports.
 
-The filter `ddw-psm/plugins` allows you to tweak the array of plugins: add more plugins, remove some of the defaults, or change parameters of the defaults.
+### Exclude individual users
 
-Typical usage:
-```
-add_filter( 'ddw-psm/plugins', 'prefix_your_custom_function' );
-function prefix_your_custom_function( $plugins ) {
+Under Tools → Plugin Submenu Mover → Plugin Hub → Excluded users, search by name or username and select several accounts. Selected users remain visible while searching or loading more results, and can be removed individually. Preview and apply. Your own account cannot be selected. User IDs remain as a fallback when JavaScript is unavailable. Exclusions apply only to this site and are not exported or imported. Excluded users retain their original menus, roles and personal preferences. This is a workplace preference, not protection against an administrator who can deactivate plugins or edit code.
 
-	// do your stuff
-	
-	return $plugins;
-}
-```
+<a id="faq"></a>
+## FAQ
 
+### Does a cleaner menu change access permissions?
 
----
+No. Each destination retains its original capability. Workspaces and menu visibility are navigation preferences, not access control.
 
-## Frequently Asked Questions 
+### Why is a plugin missing or unchanged?
 
-### Why did you create this plugin?
-Because I needed (and wanted!) it myself for the sites I maintain. [Read the backstory here ...](#plugins-backstory)
+The hub lists registered, permitted non-core top-level menus; core menus and post-type roots are excluded. A page may be unavailable to your account, externally linked or not registered. Existing automatic moves use their curated registry. Rules for unavailable integrations remain stored.
 
-### Why is this plugin not on wordpress.org plugin repository?
-Because the restrictions there for plugin authors are becoming more and more. It would be possible but I don't want that anymore. The same for limited support forums for plugin authors on .org. I have decided to leave this whole thing behind me.
+### Can I bundle ten plugins?
 
+The hub supports multiple selected groups, including ten or more. Cards and the context menu use the same registered destinations. The number of groups is not a guarantee of compatibility with arbitrary third-party versions.
 
----
+### What happens after a target plugin update?
 
-## Changelog 
+A changed registered menu structure prevents hiding that original group until reviewed again. Version and identity are shown when the callback’s owning installed plugin can be identified. Menu discovery does not prove every plugin function was tested.
 
-#### The Releases
+### Does it work with another menu editor?
 
-### 🎉 v1.5.0 – 2025-05-?? 
-* New: Support for "Bricks Remote Template Sync" plugin (free, via github.com)
-* New: Installable and updateable via [Git Updater plugin](https://git-updater.com/)
-* Update: `.pot` file, plus packaged German translations, now including new `l10n.php` files!
+Let one tool own each group. Another editor can change registrations or visual selection. Use link mode or original view while diagnosing conflicts; universal compatibility is not promised.
 
+### What about Multisite?
 
-### 🎉 v1.4.0 – 2025-03-28 
-* Initial _public_ release – _Yeah!_
-* New: Now with class-based approach
-* Proven: Battle tested for 3 years already
+Rules, hub selections and workspaces belong to each site; favorites and history belong to each user and site. Network Admin menus are untouched. Network activation uses each site’s own settings; newly created sites start with defaults.
 
-. . .
+### What data remains after deactivation or uninstall?
 
-### 👍 v1.0.0 – 2022-07
-* Initial _private_ release
+Deactivation preserves configuration. Uninstall removes temporary preview, undo and original-view metadata. Site settings and personal shortcuts remain by default; the explicit deletion switch removes this plugin’s data for the site. On network uninstall each site’s choice is respected. Shared Library cleanup follows its last-host policy. Other plugins and their content remain untouched.
 
----
+[FAQ by topic](docs/FAQ.md)
 
-## Plugin's Backstory
+<a id="changelog"></a>
+## Changelog
 
-_I wanted and needed the functionality of this plugin (Plugin Submenu Mover) myself so I developed it. For years alreay, I was annoyed by plugins putting their single admin pages on the top-level menu position in the WordPress Admin Area. This clutters your admin and takes away precious space, especially when you are on the smaller notebook on the go. This needed to be more streamlined. Formerly I mostly did specific code snippets for each of these plugins but I thought this could be done more elegant. So this code snippet was born and later on being made as plugin as well. This code already works in the installs I maintain for some years and is battle tested._
+### 2.0.0 · 2026-10-19
+- New: Optional Plugin Hub with cards, search and a persistent attached plugin group.
+- New: Personal favorites and short labels, command palette and Site Health integration.
+- New: Position settings, selection templates and searchable user exclusions.
+- Improved: Navigation, settings and vector artwork.
+- Fixed: Detection of ACF and JetFormBuilder.
+- Misc: Requires PHP 8.3 or newer; WordPress 6.7 or newer is retained.
 
-–– David Decker, plugin developer, in March of 2025
 
----
 
-## Plugin Scope / Disclaimer
 
-This plugin comes as is.
 
-_Disclaimer 1:_ So far I will support the plugin for breaking errors to keep it working. Otherwise support will be very limited. Also, it will NEVER be released to WordPress.org Plugin Repository for a lot of reasons (ah, thanks, Matt!).
 
-_Disclaimer 2:_ All of the above might change. I do all this stuff only in my spare time.
 
-_Most of all:_ Have fun building great sites!!! ;-)
 
----
 
-Icon used in promo graphics: [© Remix Icon](https://remixicon.com/)
 
-Readme & Plugin Copyright: © 2022-2025, David Decker – DECKERWEB.de
+
+### 1.4.0 · 2025-03-28
+- New: Initial public release with class-based architecture.
+- Misc: Based on the privately used version since 2022.
+
+### 1.0.0 · 2022-07
+- New: Initial private release.
+
+
+## Author and scope
+
+Developed by David Decker – DECKERWEB. Started in 2022 as a code snippet for a personal need; released as a plugin in 2025. Version 2.0 adds a flexible workspace for everyday plugin management.
+
+<a id="support"></a>
+## Support and security
+
+[Issues](https://github.com/deckerweb/plugin-submenu-mover/issues) · [Private security report](https://github.com/deckerweb/plugin-submenu-mover/security/advisories/new) · [Ko-fi](https://ko-fi.com/deckerweb) · [PayPal](https://paypal.me/deckerweb)
+
+Report security vulnerabilities privately through the repository’s Security reporting channel. Do not post credentials or exploit details in public issues. If the private report option is unavailable, use GitHub’s private contact options; do not publish sensitive details.
+
+## License and origin
+
+Copyright © 2022–2026 David Decker – DECKERWEB. GPL v2 or later. SPDX: GPL-2.0-or-later.
+
+Bundled deckerweb Library and Updater: David Decker – DECKERWEB, GPL-2.0-or-later. Approved arrow motif retained. Banner text uses Manrope (SIL OFL 1.1); see assets/OFL-Manrope.txt. Graphics are local.

@@ -1,1 +1,9 @@
 theme: jekyll-theme-cayman
+title: Plugin Submenu Mover
+description: Less clutter. Familiar menus. Keep moving.
+show_downloads: false
+exclude:
+  - includes
+  - languages
+  - readme.txt
+  - readme-de.txt
