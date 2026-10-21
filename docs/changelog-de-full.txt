@@ -1,4 +1,9 @@
 == Changelog ==
+= 2.0.1 · 2026-10-22 =
+* Verbessert: Zuverlässigere GitHub-Updates neben anderen deckerweb-Plugins.
+* Verbessert: Enthaltenen Plugin-Katalog und gemeinsame Komponenten aktualisiert.
+* Verbessert: Einheitliche englische und deutsche Wiki-Navigation und Hilfelinks.
+
 = 2.0.0 · 2026-10-19 =
 * Neu: Optionaler Plugin-Hub mit Karten, Suche und dauerhaft eingehängter Plugin-Gruppe.
 * Neu: Persönliche Favoriten und Kurzbezeichnungen, Befehlspalette und Site Health.

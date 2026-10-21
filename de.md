@@ -4,11 +4,11 @@ layout: default
 
 # Plugin Submenu Mover
 
-[English](./)
+[English](index.html)
 
 ![Plugin Submenu Mover](assets/banner-github-de.png)
 
-[Download 2.0.0](https://github.com/deckerweb/plugin-submenu-mover/releases/download/v2.0.0/plugin-submenu-mover-2.0.0.zip) · [Wiki](https://github.com/deckerweb/plugin-submenu-mover/wiki)
+[Herunterladen 2.0.1](https://github.com/deckerweb/plugin-submenu-mover/releases/download/v2.0.1/plugin-submenu-mover-2.0.1.zip) · [Wiki](https://github.com/deckerweb/plugin-submenu-mover/wiki)
 
 ## About
 
@@ -20,7 +20,7 @@ Persönliche Favoriten, kurze Bezeichnungen und dauerhaft eingehängte Plugin-Gr
 
 Das Ziel ist seit 2022 dasselbe: weniger Zeit mit Suchen verbringen und leichter mit WordPress arbeiten.
 
-**2.0.0** · WordPress **6.7+** · PHP **8.3+**
+**2.0.1** · WordPress **6.7+** · PHP **8.3+**
 
 [FAQ](#faq) · [Änderungsverlauf](#changelog) · [GitHub](https://github.com/deckerweb/plugin-submenu-mover)
 
@@ -92,7 +92,7 @@ Originalmenü für eine Stunde anzeigen stellt die ursprüngliche Navigation vor
 
 ### Voraussetzungen und gemeinsame Komponenten
 
-WordPress 6.7+ und PHP 8.3+ bleiben die Mindestanforderungen. Enthalten sind deckerweb Library 1.0.0 und Updater 2.1.0; ein zusätzliches Komponenten-Plugin ist nicht erforderlich. Der optionale Onlinekatalog der Library ist zunächst ausgeschaltet. Der Updater ruft stabile Release-Metadaten und gewählte Updatepakete von GitHub ab. Keine Telemetrie. Die Auslieferung erfolgt ausschließlich als installierbares Plugin-ZIP.
+WordPress 6.7+ und PHP 8.3+ bleiben die Mindestanforderungen. Enthalten sind deckerweb Library 1.1.0 und Updater 2.2.1; ein zusätzliches Komponenten-Plugin ist nicht erforderlich. Der optionale Onlinekatalog der Library ist zunächst ausgeschaltet. Der Updater ruft stabile Release-Metadaten und gewählte Updatepakete von GitHub ab. Keine Telemetrie. Die Auslieferung erfolgt ausschließlich als installierbares Plugin-ZIP.
 
 ### Gruppenleiste und Kurzbezeichnungen
 
@@ -133,10 +133,15 @@ Regeln, Hub-Auswahl und Arbeitsansichten gehören zur einzelnen Website; Favorit
 
 Deaktivierung erhält die Konfiguration. Deinstallation entfernt temporäre Vorschau-, Rückgängig- und Originalansicht-Daten. Website-Einstellungen und persönliche Schnellzugriffe bleiben standardmäßig erhalten; die ausdrückliche Löschoption entfernt eigene Daten dieser Website. Bei Netzwerkdeinstallation gilt die Auswahl jeder Website. Die gemeinsame Library bereinigt Daten nach ihrer Letzt-Host-Regel. Andere Plugins und deren Inhalte bleiben erhalten.
 
-[Fragen nach Themen](https://github.com/deckerweb/plugin-submenu-mover/wiki/Fragen-nach-Themen)
+[Fragen nach Themen](docs/FAQ-de.md)
 
 <a id="changelog"></a>
 ## Änderungsverlauf
+
+### 2.0.1 · 2026-10-22
+- Verbessert: Zuverlässigere GitHub-Updates neben anderen deckerweb-Plugins.
+- Verbessert: Enthaltenen Plugin-Katalog und gemeinsame Komponenten aktualisiert.
+- Verbessert: Einheitliche englische und deutsche Wiki-Navigation und Hilfelinks.
 
 ### 2.0.0 · 2026-10-19
 - Neu: Optionaler Plugin-Hub mit Karten, Suche und dauerhaft eingehängter Plugin-Gruppe.

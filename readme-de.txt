@@ -4,7 +4,7 @@ Tags: admin, menu, navigation
 Requires at least: 6.7
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,11 @@ Regeln, Hub-Auswahl und Arbeitsansichten gehören zur einzelnen Website; Favorit
 Deaktivierung erhält die Konfiguration. Deinstallation entfernt temporäre Vorschau-, Rückgängig- und Originalansicht-Daten. Website-Einstellungen und persönliche Schnellzugriffe bleiben standardmäßig erhalten; die ausdrückliche Löschoption entfernt eigene Daten dieser Website. Bei Netzwerkdeinstallation gilt die Auswahl jeder Website. Die gemeinsame Library bereinigt Daten nach ihrer Letzt-Host-Regel. Andere Plugins und deren Inhalte bleiben erhalten.
 
 == Changelog ==
+= 2.0.1 · 2026-10-22 =
+* Verbessert: Zuverlässigere GitHub-Updates neben anderen deckerweb-Plugins.
+* Verbessert: Enthaltenen Plugin-Katalog und gemeinsame Komponenten aktualisiert.
+* Verbessert: Einheitliche englische und deutsche Wiki-Navigation und Hilfelinks.
+
 = 2.0.0 · 2026-10-19 =
 * Neu: Optionaler Plugin-Hub mit Karten, Suche und dauerhaft eingehängter Plugin-Gruppe.
 * Neu: Persönliche Favoriten und Kurzbezeichnungen, Befehlspalette und Site Health.

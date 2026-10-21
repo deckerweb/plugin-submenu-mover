@@ -146,7 +146,7 @@ trait DDW_PSM_Setup {
 		$nodes = $bar->get_nodes() ?: []; $this->toolbar_anchors = [];
 		foreach ( $nodes as $node ) {
 			if ( ! $node->parent && ! $node->group && ! in_array( $node->id, [ 'psm-hub', 'menu-toggle' ], true ) ) {
-				$label = 'comments' === $node->id ? __( 'Comments' ) : trim( wp_strip_all_tags( $node->meta['title'] ?? $node->title ) );
+				$label = 'comments' === $node->id ? __( 'Comments', 'plugin-submenu-mover' ) : trim( wp_strip_all_tags( $node->meta['title'] ?? $node->title ) );
 				if ( $label ) { $this->toolbar_anchors[ $this->anchor_id( $node->id ) ] = [ 'slug' => $node->id, 'label' => $label ]; }
 			}
 		}

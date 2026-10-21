@@ -3,7 +3,7 @@
  * Plugin Name: Plugin Submenu Mover
  * Plugin URI: https://github.com/deckerweb/plugin-submenu-mover
  * Description: Organize plugin settings with safe submenu moves, an optional Plugin Hub, personal favorites and reviewable rules.
- * Version: 2.0.0
+ * Version: 2.0.1
  * Requires at least: 6.7
  * Requires PHP: 8.3
  * Author: David Decker – DECKERWEB
@@ -32,7 +32,7 @@ if ( ! defined( 'PSM_SNIPPET_MODE' ) ) {
 /** Coordinates curated single-page moves, site rules and optional contextual plugin navigation. */
 if ( ! class_exists( 'DDW_Plugin_Submenu_Mover', false ) ) {
 class DDW_Plugin_Submenu_Mover {
-	public const VERSION = '2.0.0';
+	public const VERSION = '2.0.1';
 	private const OPTION = 'ddw_psm_rules';
 	private const PREVIEW = 'ddw_psm_original_until_';
 	private $results = [];

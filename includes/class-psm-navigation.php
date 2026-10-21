@@ -116,7 +116,7 @@ final class DDW_PSM_Navigation {
 		$slug = html_entity_decode( $slug, ENT_QUOTES, 'UTF-8' );
 		if ( strlen( $slug ) > 1000 || preg_match( '~[:\\\\#\x00-\x20]~', $slug ) || str_contains( $slug, '..' ) || str_starts_with( $slug, '/' ) ) { return ''; }
 		if ( preg_match( '~^[a-z0-9_-]+\.php(?:\?|$)~i', $slug ) ) {
-			parse_str( (string) parse_url( $slug, PHP_URL_QUERY ), $query );
+			parse_str( (string) wp_parse_url( $slug, PHP_URL_QUERY ), $query );
 			if ( isset( $query['action'] ) || isset( $query['_wpnonce'] ) ) { return ''; }
 			return admin_url( $slug );
 		}
@@ -201,16 +201,16 @@ final class DDW_PSM_Navigation {
 	 */
 	private function resolve_context() {
 		global $pagenow;
-		$page = isset( $_GET['page'] ) && is_string( $_GET['page'] ) ? wp_unslash( $_GET['page'] ) : '';
+		$page = isset( $_GET['page'] ) && is_string( $_GET['page'] ) ? sanitize_text_field( wp_unslash( $_GET['page'] ) ) : '';
 		global $_parent_pages;
 		$registered_parent = $_parent_pages[ $page ] ?? '';
 		foreach ( $this->groups as $id => $group ) { if ( $registered_parent && $registered_parent === $group['slug'] ) { return $id; } }
 		foreach ( $this->pages as $entry ) {
-			parse_str( (string) parse_url( $entry['url'], PHP_URL_QUERY ), $query );
+			parse_str( (string) wp_parse_url( $entry['url'], PHP_URL_QUERY ), $query );
 			if ( $page && ( $query['page'] ?? '' ) === $page ) { return $entry['group']; }
-			if ( ! $page && basename( parse_url( $entry['url'], PHP_URL_PATH ) ) === $pagenow && ! empty( $query ) ) {
+			if ( ! $page && basename( wp_parse_url( $entry['url'], PHP_URL_PATH ) ) === $pagenow && ! empty( $query ) ) {
 				$matches = true;
-				foreach ( $query as $key => $value ) { if ( ! isset( $_GET[ $key ] ) || ! is_string( $_GET[ $key ] ) || wp_unslash( $_GET[ $key ] ) !== $value ) { $matches = false; } }
+				foreach ( $query as $key => $value ) { if ( ! isset( $_GET[ $key ] ) || ! is_string( $_GET[ $key ] ) || sanitize_text_field( wp_unslash( $_GET[ $key ] ) ) !== $value ) { $matches = false; } }
 				if ( $matches ) { return $entry['group']; }
 			}
 		}
@@ -336,7 +336,7 @@ final class DDW_PSM_Navigation {
 	public function submenu_file( $file ) {
 		if ( $this->parent_file( '' ) !== self::HUB ) { return $file; }
 		foreach ( $this->groups[ $this->active ]['pages'] as $page ) {
-			if ( isset( $_GET['page'] ) && is_string( $_GET['page'] ) && wp_unslash( $_GET['page'] ) === $page['slug'] ) { return $page['url']; }
+			if ( isset( $_GET['page'] ) && is_string( $_GET['page'] ) && sanitize_text_field( wp_unslash( $_GET['page'] ) ) === $page['slug'] ) { return $page['url']; }
 		}
 		return $file;
 	}
@@ -458,7 +458,7 @@ final class DDW_PSM_Navigation {
 		$p = $this->personal();
 		if ( ! $p['history'] || ( $_SERVER['REQUEST_METHOD'] ?? 'GET' ) !== 'GET' ) { return; }
 		foreach ( $this->groups[ $this->active ]['pages'] as $page ) {
-			if ( isset( $_GET['page'] ) && is_string( $_GET['page'] ) && wp_unslash( $_GET['page'] ) === $page['slug'] ) {
+			if ( isset( $_GET['page'] ) && is_string( $_GET['page'] ) && sanitize_text_field( wp_unslash( $_GET['page'] ) ) === $page['slug'] ) {
 				$recent = array_slice( array_values( array_unique( array_merge( [ $page['id'] ], $p['recent'] ) ) ), 0, 12 );
 				if ( $recent !== $p['recent'] ) { $p['recent'] = $recent; update_user_meta( get_current_user_id(), 'ddw_psm_personal_' . get_current_blog_id(), $p ); }
 				return;

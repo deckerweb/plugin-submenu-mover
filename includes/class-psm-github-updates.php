@@ -21,14 +21,12 @@ final class GitHubUpdates {
 
 	/** Load the shared versioned class once, including beside other deckerweb plugins. @return void */
 	public function boot(): void {
-		if ( ! class_exists( '\Deckerweb\GitHubReleaseUpdater\V2\Updater' ) ) {
-			require_once ( dirname( PSM_PLUGIN_FILE ) . '/' ) . 'includes/deckerweb-github-release-updater-v2.php';
-		}
-		if ( ! defined( \Deckerweb\GitHubReleaseUpdater\V2\Updater::class . '::SUPPORTS_HOST_TRANSLATIONS' ) ) {
+		$updater_class = require __DIR__ . '/deckerweb-github-release-updater-v2.php';
+		if ( ! defined( $updater_class . '::SUPPORTS_HOST_TRANSLATIONS' ) ) {
 			add_action( 'admin_notices', [ $this, 'component_notice' ] ); return;
 		}
 		try {
-			$updater = new \Deckerweb\GitHubReleaseUpdater\V2\Updater(
+			$updater = new $updater_class(
 				PSM_PLUGIN_FILE,
 				self::REPOSITORY,
 				'Plugin Submenu Mover',

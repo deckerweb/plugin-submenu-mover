@@ -8,7 +8,7 @@ layout: default
 
 ![Plugin Submenu Mover](assets/banner-github-en.png)
 
-[Download 2.0.0](https://github.com/deckerweb/plugin-submenu-mover/releases/download/v2.0.0/plugin-submenu-mover-2.0.0.zip) · [Wiki](https://github.com/deckerweb/plugin-submenu-mover/wiki)
+[Download 2.0.1](https://github.com/deckerweb/plugin-submenu-mover/releases/download/v2.0.1/plugin-submenu-mover-2.0.1.zip) · [Wiki](https://github.com/deckerweb/plugin-submenu-mover/wiki)
 
 ## About
 
@@ -20,7 +20,7 @@ Personal favorites, short labels and persistent plugin groups make recurring tas
 
 The goal has stayed the same since 2022: spend less time looking for things and make working with WordPress easier.
 
-**2.0.0** · WordPress **6.7+** · PHP **8.3+**
+**2.0.1** · WordPress **6.7+** · PHP **8.3+**
 
 [FAQ](#faq) · [Changelog](#changelog) · [GitHub](https://github.com/deckerweb/plugin-submenu-mover)
 
@@ -92,7 +92,7 @@ Show original menu for one hour temporarily restores the original navigation for
 
 ### Requirements and shared components
 
-WordPress 6.7+ is retained; version 2.0 requires PHP 8.3+. This package embeds deckerweb Library 1.0.0 and Updater 2.1.0; no separate component plugin is required. Optional Library online catalog retrieval defaults off. The updater contacts GitHub for stable release metadata and selected update packages. No telemetry is included. Distributed exclusively as an installable plugin ZIP.
+WordPress 6.7+ is retained; version 2.0 requires PHP 8.3+. This package embeds deckerweb Library 1.1.0 and Updater 2.2.1; no separate component plugin is required. Optional Library online catalog retrieval defaults off. The updater contacts GitHub for stable release metadata and selected update packages. No telemetry is included. Distributed exclusively as an installable plugin ZIP.
 
 ### Group bar and short labels
 
@@ -133,10 +133,15 @@ Rules, hub selections and workspaces belong to each site; favorites and history 
 
 Deactivation preserves configuration. Uninstall removes temporary preview, undo and original-view metadata. Site settings and personal shortcuts remain by default; the explicit deletion switch removes this plugin’s data for the site. On network uninstall each site’s choice is respected. Shared Library cleanup follows its last-host policy. Other plugins and their content remain untouched.
 
-[FAQ by topic](https://github.com/deckerweb/plugin-submenu-mover/wiki/FAQ-by-topic)
+[FAQ by topic](docs/FAQ.md)
 
 <a id="changelog"></a>
 ## Changelog
+
+### 2.0.1 · 2026-10-22
+- Improved: More reliable GitHub updates alongside other deckerweb plugins.
+- Improved: Updated the bundled plugin catalog and shared components.
+- Improved: Consistent English and German wiki navigation and help links.
 
 ### 2.0.0 · 2026-10-19
 - New: Optional Plugin Hub with cards, search and a persistent attached plugin group.

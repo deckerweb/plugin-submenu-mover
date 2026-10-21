@@ -10,13 +10,43 @@ msgstr ""
 msgid "%d users selected"
 msgstr ""
 
+msgid "%s is installed but inactive. Activate it first."
+msgstr ""
+
+msgid "%s is missing. Install and activate it first."
+msgstr ""
+
+msgid "%s must be network activated first."
+msgstr ""
+
+msgid "%s supports activation per site only."
+msgstr ""
+
 msgid "Accepted structure"
 msgstr ""
 
 msgid "Access denied."
 msgstr ""
 
+msgid "Action cancelled."
+msgstr ""
+
 msgid "Actions include marked rows hidden by filters."
+msgstr ""
+
+msgid "Activate"
+msgstr ""
+
+msgid "Activate Bricks QuickNav per site after selecting the Bricks parent or child theme."
+msgstr ""
+
+msgid "Activating…"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Active filters: "
 msgstr ""
 
 msgid "Added pages: %1$d · Removed pages: %2$d · Permission changes: %3$d"
@@ -25,10 +55,16 @@ msgstr ""
 msgid "Additional plugin pages found; left unchanged"
 msgstr ""
 
+msgid "Admin"
+msgstr ""
+
 msgid "Admin menu position"
 msgstr ""
 
 msgid "Administrator user IDs"
+msgstr ""
+
+msgid "Affected features remain paused until their requirements are met."
 msgstr ""
 
 msgid "After"
@@ -49,13 +85,43 @@ msgstr ""
 msgid "All users"
 msgstr ""
 
+msgid "Already active"
+msgstr ""
+
+msgid "Already up to date."
+msgstr ""
+
 msgid "Anchor unavailable; using the default position"
+msgstr ""
+
+msgid "Another action for this plugin is running. Please wait."
+msgstr ""
+
+msgid "Another component interrupted the request. If Git Updater is active, temporarily deactivate it and retry."
 msgstr ""
 
 msgid "Another plugin loaded an older shared updater. Update the other deckerweb plugins to restore update checks for Plugin Submenu Mover."
 msgstr ""
 
+msgid "Another updater provides a different release. Refresh updates before continuing."
+msgstr ""
+
 msgid "Apply changes"
+msgstr ""
+
+msgid "Apr"
+msgstr ""
+
+msgid "April"
+msgstr ""
+
+msgid "Archive contains too many files."
+msgstr ""
+
+msgid "Archive symlinks are not permitted."
+msgstr ""
+
+msgid "As of "
 msgstr ""
 
 msgid "Attach group"
@@ -65,6 +131,12 @@ msgid "Attached workgroup"
 msgstr ""
 
 msgid "Attached:"
+msgstr ""
+
+msgid "Aug"
+msgstr ""
+
+msgid "August"
 msgstr ""
 
 msgid "Automatic menu moves are active again."
@@ -85,10 +157,16 @@ msgstr ""
 msgid "Available in Plugin Hub; original registration preserved"
 msgstr ""
 
+msgid "Back to deckerweb"
+msgstr ""
+
 msgid "Before"
 msgstr ""
 
 msgid "Before %s"
+msgstr ""
+
+msgid "Builder"
 msgstr ""
 
 msgid "Bundle in hub"
@@ -97,10 +175,37 @@ msgstr ""
 msgid "Bundle marked groups"
 msgstr ""
 
+msgid "Bundled catalog"
+msgstr ""
+
 msgid "Bundled components"
 msgstr ""
 
+msgid "Cached or bundled catalog"
+msgstr ""
+
+msgid "Cannot create temporary file."
+msgstr ""
+
+msgid "Cannot create verified archive."
+msgstr ""
+
+msgid "Cannot finalize archive."
+msgstr ""
+
+msgid "Cannot normalize archive."
+msgstr ""
+
+msgid "Cannot read archive entry."
+msgstr ""
+
 msgid "Cards and a contextual menu keep plugin pages together. Link mode keeps original menus. Bundle mode hides a group only while its accepted structure is unchanged."
+msgstr ""
+
+msgid "Catalog URL"
+msgstr ""
+
+msgid "Catalog refreshed."
 msgstr ""
 
 msgid "Changelog"
@@ -110,6 +215,12 @@ msgid "Changes applied."
 msgstr ""
 
 msgid "Changes discarded."
+msgstr ""
+
+msgid "Check status"
+msgstr ""
+
+msgid "Checking status…"
 msgstr ""
 
 msgid "Choose a plugin in the left menu or open its menu from a card. Its pages then appear below Plugin Hub. Use All plugins to return to this overview."
@@ -139,6 +250,15 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
+msgid "Comments"
+msgstr ""
+
+msgid "Commerce"
+msgstr ""
+
+msgid "Compatible additions only"
+msgstr ""
+
 msgid "Configuration changed. Review again."
 msgstr ""
 
@@ -146,6 +266,12 @@ msgid "Configured groups"
 msgstr ""
 
 msgid "Content"
+msgstr ""
+
+msgid "Copied."
+msgstr ""
+
+msgid "Copy diagnostic information"
 msgstr ""
 
 msgid "Could not access the update filesystem."
@@ -166,7 +292,16 @@ msgstr ""
 msgid "Dashicons overview"
 msgstr ""
 
+msgid "Dec"
+msgstr ""
+
+msgid "December"
+msgstr ""
+
 msgid "Default position"
+msgstr ""
+
+msgid "Delete Library settings when removing the last host plugin"
 msgstr ""
 
 msgid "Delete plugin data on uninstall"
@@ -178,6 +313,9 @@ msgstr ""
 msgid "Detach group"
 msgstr ""
 
+msgid "Details & requirements"
+msgstr ""
+
 msgid "Diagnostics report"
 msgstr ""
 
@@ -187,10 +325,25 @@ msgstr ""
 msgid "Discard changes"
 msgstr ""
 
+msgid "Discover more plugins by deckerweb"
+msgstr ""
+
+msgid "Discover randomly"
+msgstr ""
+
+msgid "Dismiss permanently"
+msgstr ""
+
+msgid "Dismiss this notice"
+msgstr ""
+
 msgid "Documentation and FAQ"
 msgstr ""
 
 msgid "Donate"
+msgstr ""
+
+msgid "Done. The plugin is active."
 msgstr ""
 
 msgid "Download rules"
@@ -200,6 +353,9 @@ msgid "Enable Plugin Hub"
 msgstr ""
 
 msgid "Enabled"
+msgstr ""
+
+msgid "Enter a catalog URL first."
 msgstr ""
 
 msgid "Enter opens the first matching page. Escape clears the search."
@@ -220,10 +376,16 @@ msgstr ""
 msgid "Excluded users keep their original admin menus. Plugin Hub, automatic moves, favorites and plugin settings are disabled for them on this site. Roles and saved preferences remain unchanged."
 msgstr ""
 
+msgid "Expanded archive is too large."
+msgstr ""
+
 msgid "Export exceptions and target menus for another site. Import merges rules with this site; matching integration rules are replaced. Unknown integration IDs are retained for future use."
 msgstr ""
 
 msgid "Export schema"
+msgstr ""
+
+msgid "F j, Y"
 msgstr ""
 
 msgid "Favorite short labels"
@@ -233,6 +395,21 @@ msgid "Favorites"
 msgstr ""
 
 msgid "Favorites updated."
+msgstr ""
+
+msgid "Feb"
+msgstr ""
+
+msgid "February"
+msgstr ""
+
+msgid "Filesystem credentials are required."
+msgstr ""
+
+msgid "Filesystem credentials are required. Use the catalog with JavaScript enabled or the native Plugins screen."
+msgstr ""
+
+msgid "Filter"
 msgstr ""
 
 msgid "Find a page"
@@ -247,10 +424,31 @@ msgstr ""
 msgid "Finding users…"
 msgstr ""
 
+msgid "Fits my installation"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid "Fri"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "Git Updater is active. If a deckerweb installation or update fails, temporarily deactivate Git Updater and retry. Reactivate it afterwards if other plugins or themes need it. Only leave it disabled when those extensions have another reliable update provider."
+msgstr ""
+
+msgid "GitHub Stars"
+msgstr ""
+
 msgid "GitHub release does not contain the plugin main file."
 msgstr ""
 
 msgid "Group bar"
+msgstr ""
+
+msgid "Hide catalog"
 msgstr ""
 
 msgid "Hide group bar"
@@ -262,25 +460,136 @@ msgstr ""
 msgid "Import rules"
 msgstr ""
 
+msgid "Improved"
+msgstr ""
+
+msgid "Install and activate this plugin in the network admin."
+msgstr ""
+
+msgid "Install deckerweb plugin"
+msgstr ""
+
+msgid "Install now"
+msgstr ""
+
+msgid "Installation cancelled."
+msgstr ""
+
+msgid "Installation failed."
+msgstr ""
+
+msgid "Installed"
+msgstr ""
+
+msgid "Installed · inactive"
+msgstr ""
+
+msgid "Installed: "
+msgstr ""
+
+msgid "Installing…"
+msgstr ""
+
 msgid "Invalid GitHub repository URL."
+msgstr ""
+
+msgid "Invalid ZIP archive."
+msgstr ""
+
+msgid "Invalid approval flag."
 msgstr ""
 
 msgid "Invalid authentication provider."
 msgstr ""
 
+msgid "Invalid catalog field: "
+msgstr ""
+
+msgid "Invalid catalog revision."
+msgstr ""
+
+msgid "Invalid catalog schema."
+msgstr ""
+
+msgid "Invalid catalog timestamp."
+msgstr ""
+
 msgid "Invalid configuration."
+msgstr ""
+
+msgid "Invalid dependencies."
+msgstr ""
+
+msgid "Invalid dependency URL."
+msgstr ""
+
+msgid "Invalid dependency metadata."
+msgstr ""
+
+msgid "Invalid display field."
+msgstr ""
+
+msgid "Invalid icon color."
+msgstr ""
+
+msgid "Invalid icon label."
+msgstr ""
+
+msgid "Invalid identity or release metadata."
 msgstr ""
 
 msgid "Invalid integration configuration"
 msgstr ""
 
+msgid "Invalid local icon."
+msgstr ""
+
+msgid "Invalid network policy."
+msgstr ""
+
+msgid "Invalid network requirement."
+msgstr ""
+
+msgid "Invalid platform version."
+msgstr ""
+
+msgid "Invalid plugin series."
+msgstr ""
+
 msgid "Invalid rules. Use the exported configuration format."
+msgstr ""
+
+msgid "Invalid sort order."
+msgstr ""
+
+msgid "Invalid star count."
+msgstr ""
+
+msgid "Invalid stars date."
 msgstr ""
 
 msgid "Invalid target menu."
 msgstr ""
 
+msgid "Jan"
+msgstr ""
+
+msgid "January"
+msgstr ""
+
 msgid "Join our Newsletter"
+msgstr ""
+
+msgid "Jul"
+msgstr ""
+
+msgid "July"
+msgstr ""
+
+msgid "Jun"
+msgstr ""
+
+msgid "June"
 msgstr ""
 
 msgid "Kept at original position"
@@ -292,10 +601,25 @@ msgstr ""
 msgid "Last change undone."
 msgstr ""
 
+msgid "Last successful check: "
+msgstr ""
+
 msgid "Left, at the beginning"
 msgstr ""
 
 msgid "Less clutter. Familiar menus. Keep moving."
+msgstr ""
+
+msgid "Library"
+msgstr ""
+
+msgid "Library changelog"
+msgstr ""
+
+msgid "Library settings"
+msgstr ""
+
+msgid "Library settings saved."
 msgstr ""
 
 msgid "Link from hub"
@@ -310,6 +634,18 @@ msgstr ""
 msgid "Maintenance"
 msgstr ""
 
+msgid "Manage Content"
+msgstr ""
+
+msgid "Manage installed plugins"
+msgstr ""
+
+msgid "Mar"
+msgstr ""
+
+msgid "March"
+msgstr ""
+
 msgid "Mark %s"
 msgstr ""
 
@@ -322,6 +658,9 @@ msgstr ""
 msgid "Matching plugin groups: %d"
 msgstr ""
 
+msgid "May"
+msgstr ""
+
 msgid "Menu access is unavailable for this user"
 msgstr ""
 
@@ -329,6 +668,24 @@ msgid "Menu detected; full plugin compatibility not certified"
 msgstr ""
 
 msgid "Menu structure changed. The original menu remains visible until reviewed."
+msgstr ""
+
+msgid "Misc"
+msgstr ""
+
+msgid "Missing display text."
+msgstr ""
+
+msgid "Missing plugin header."
+msgstr ""
+
+msgid "Mon"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "More by deckerweb"
 msgstr ""
 
 msgid "Move arrows"
@@ -346,6 +703,15 @@ msgstr ""
 msgid "Moved"
 msgstr ""
 
+msgid "Multisite"
+msgstr ""
+
+msgid "Name A–Z"
+msgstr ""
+
+msgid "Name Z–A"
+msgstr ""
+
 msgid "Name or menu contains “%s”."
 msgstr ""
 
@@ -356,6 +722,21 @@ msgid "Navigation"
 msgstr ""
 
 msgid "Navigation choices match the saved configuration."
+msgstr ""
+
+msgid "Network activate"
+msgstr ""
+
+msgid "Network active"
+msgstr ""
+
+msgid "Network permission denied."
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "No approved plugins match this selection."
 msgstr ""
 
 msgid "No changes."
@@ -391,10 +772,37 @@ msgstr ""
 msgid "Not detected or disabled by filter"
 msgstr ""
 
+msgid "Not installed. You can try again."
+msgstr ""
+
 msgid "Not selected"
 msgstr ""
 
 msgid "Nothing has been changed yet. Apply this configuration or discard it."
+msgstr ""
+
+msgid "Nov"
+msgstr ""
+
+msgid "November"
+msgstr ""
+
+msgid "Oct"
+msgstr ""
+
+msgid "October"
+msgstr ""
+
+msgid "Off by default. Applies only when no other host is installed, including inactive hosts. Removes Library settings, installation records and introduction status. Installed plugins, their content and other plugin settings remain unchanged. Network data is shared across sites."
+msgstr ""
+
+msgid "Online catalog"
+msgstr ""
+
+msgid "Only HTTPS on raw.githubusercontent.com/deckerweb. The server receives the requesting IP address. GitHub is contacted when installing a release."
+msgstr ""
+
+msgid "Only approved releases"
 msgstr ""
 
 msgid "Open"
@@ -409,6 +817,9 @@ msgstr ""
 msgid "Open a plugin menu or go straight to a page."
 msgstr ""
 
+msgid "Open catalog"
+msgstr ""
+
 msgid "Open plugin menu"
 msgstr ""
 
@@ -416,6 +827,9 @@ msgid "Open plugin menu: %s"
 msgstr ""
 
 msgid "Optional labels keep the original plugin and page name visible."
+msgstr ""
+
+msgid "Optional. The bundled catalog works immediately. Catalog requests are cached for 24 hours. No site URL, plugin list or usage data is sent."
 msgstr ""
 
 msgid "Organize plugin settings with safe submenu moves, an optional Plugin Hub, personal favorites and reviewable rules."
@@ -439,6 +853,12 @@ msgstr ""
 msgid "Overview grid"
 msgstr ""
 
+msgid "PHP ZIP support is required."
+msgstr ""
+
+msgid "POST required."
+msgstr ""
+
 msgid "Page"
 msgstr ""
 
@@ -457,10 +877,19 @@ msgstr ""
 msgid "Paste the exported JSON configuration"
 msgstr ""
 
+msgid "Permission denied."
+msgstr ""
+
+msgid "Permission denied. Reload the page and check your permissions."
+msgstr ""
+
 msgid "Personal setting for this site. Hiding the bar keeps your attached group in the admin menu and toolbar."
 msgstr ""
 
 msgid "Personal view"
+msgstr ""
+
+msgid "Planned: "
 msgstr ""
 
 msgid "Plugin"
@@ -478,10 +907,16 @@ msgstr ""
 msgid "Plugin groups: %d"
 msgstr ""
 
+msgid "Plugin identity or version does not match the catalog."
+msgstr ""
+
 msgid "Plugin identity unavailable"
 msgstr ""
 
 msgid "Plugin information"
+msgstr ""
+
+msgid "Plugin is not installed."
 msgstr ""
 
 msgid "Plugin navigation configuration"
@@ -499,6 +934,9 @@ msgstr ""
 msgid "Plugin or page name…"
 msgstr ""
 
+msgid "Plugin series"
+msgstr ""
+
 msgid "Plugin website"
 msgstr ""
 
@@ -511,10 +949,19 @@ msgstr ""
 msgid "Private mode must be boolean."
 msgstr ""
 
+msgid "Product website"
+msgstr ""
+
 msgid "Profiles"
 msgstr ""
 
+msgid "Public catalog callbacks require both providers and cannot be used in private mode."
+msgstr ""
+
 msgid "Read installation again"
+msgstr ""
+
+msgid "Recently updated"
 msgstr ""
 
 msgid "Recently visited"
@@ -523,10 +970,28 @@ msgstr ""
 msgid "Recommended"
 msgstr ""
 
+msgid "Refresh catalog"
+msgstr ""
+
+msgid "Release 1.0.0 is being prepared. Installation will be available after package verification."
+msgstr ""
+
+msgid "Release checksum is verified before installation. Activation is a separate step."
+msgstr ""
+
+msgid "Release in preparation"
+msgstr ""
+
+msgid "Release must contain exactly the approved plugin directory."
+msgstr ""
+
 msgid "Remember recently visited pages on this site"
 msgstr ""
 
 msgid "Remove all my favorites"
+msgstr ""
+
+msgid "Remove filter: "
 msgstr ""
 
 msgid "Remove user: %s"
@@ -535,10 +1000,34 @@ msgstr ""
 msgid "Remove workspace"
 msgstr ""
 
+msgid "Repository & documentation"
+msgstr ""
+
+msgid "Requirements shown are preliminary until the stable release is verified."
+msgstr ""
+
+msgid "Requires PHP %s or newer."
+msgstr ""
+
+msgid "Requires WordPress %s or newer."
+msgstr ""
+
+msgid "Requires a WordPress Multisite network."
+msgstr ""
+
+msgid "Reset filters"
+msgstr ""
+
 msgid "Reset my workspace view"
 msgstr ""
 
+msgid "Reset view"
+msgstr ""
+
 msgid "Resume automatic moves"
+msgstr ""
+
+msgid "Retrieve approved catalog updates online"
 msgstr ""
 
 msgid "Reuse your rules"
@@ -559,10 +1048,19 @@ msgstr ""
 msgid "Rules saved."
 msgstr ""
 
+msgid "Sat"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
 msgid "Save preferences"
 msgstr ""
 
 msgid "Save rules"
+msgstr ""
+
+msgid "Save settings"
 msgstr ""
 
 msgid "Save short labels"
@@ -571,7 +1069,16 @@ msgstr ""
 msgid "Saved workspace"
 msgstr ""
 
+msgid "Scripts"
+msgstr ""
+
+msgid "Search this catalog"
+msgstr ""
+
 msgid "See the release on GitHub."
+msgstr ""
+
+msgid "Select and copy the text."
 msgstr ""
 
 msgid "Select diagnostics to copy"
@@ -583,10 +1090,19 @@ msgstr ""
 msgid "Selected"
 msgstr ""
 
+msgid "Selected by deckerweb · Installed from GitHub releases"
+msgstr ""
+
 msgid "Selected users"
 msgstr ""
 
 msgid "Selection template"
+msgstr ""
+
+msgid "Sep"
+msgstr ""
+
+msgid "September"
 msgstr ""
 
 msgid "Setting"
@@ -595,7 +1111,16 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
+msgid "Settings saved."
+msgstr ""
+
+msgid "Shop"
+msgstr ""
+
 msgid "Short labels replace menu and toolbar labels. Original names remain here for reference."
+msgstr ""
+
+msgid "Show deckerweb under Add Plugins"
 msgstr ""
 
 msgid "Show group bar"
@@ -613,13 +1138,31 @@ msgstr ""
 msgid "Show undetected integrations"
 msgstr ""
 
+msgid "Shows plugins whose platform and dependency requirements are met in this site or network. Without this filter, plugins with missing requirements remain visible."
+msgstr ""
+
+msgid "Shuffle again"
+msgstr ""
+
 msgid "Site Health information"
 msgstr ""
 
 msgid "Site building"
 msgstr ""
 
+msgid "Small plugins. Practical improvements."
+msgstr ""
+
+msgid "Sort by"
+msgstr ""
+
+msgid "Source: GitHub"
+msgstr ""
+
 msgid "Stacked pages"
+msgstr ""
+
+msgid "Standard"
 msgstr ""
 
 msgid "Star a page to keep it here and in the hub menu."
@@ -638,6 +1181,12 @@ msgid "Stored rules"
 msgstr ""
 
 msgid "Structure"
+msgstr ""
+
+msgid "Sun"
+msgstr ""
+
+msgid "Sunday"
 msgstr ""
 
 msgid "Support diagnostics"
@@ -664,6 +1213,9 @@ msgstr ""
 msgid "Target menu not found"
 msgstr ""
 
+msgid "Technical information"
+msgstr ""
+
 msgid "Templates suggest matching groups on this installation, not certified plugin sets. Mark rows, then choose an action. Changes take effect only after preview and apply."
 msgstr ""
 
@@ -673,10 +1225,49 @@ msgstr ""
 msgid "The GitHub package does not contain the Plugin Submenu Mover plugin file."
 msgstr ""
 
+msgid "The GitHub release could not be downloaded."
+msgstr ""
+
+msgid "The action is still running. Check its status again."
+msgstr ""
+
+msgid "The approved package could not be verified."
+msgstr ""
+
+msgid "The approved release changed. Refresh updates first."
+msgstr ""
+
+msgid "The approved release could not be verified."
+msgstr ""
+
+msgid "The catalog URL is not an allowed first-party HTTPS endpoint."
+msgstr ""
+
+msgid "The catalog could not be verified. Please try again later."
+msgstr ""
+
+msgid "The catalog is disabled."
+msgstr ""
+
+msgid "The catalog is hidden."
+msgstr ""
+
 msgid "The configuration is too large."
 msgstr ""
 
+msgid "The deckerweb catalog could not load. Check platform requirements and the complete Library integration in the host plugin."
+msgstr ""
+
 msgid "The hub is disabled."
+msgstr ""
+
+msgid "The installed plugin identity could not be verified for this catalog update."
+msgstr ""
+
+msgid "The online catalog is unavailable. Showing cached or bundled entries; online approval is checked again before installation."
+msgstr ""
+
+msgid "The online catalog source is not trusted."
 msgstr ""
 
 msgid "The package identity or version does not match a newer Plugin Submenu Mover release."
@@ -694,7 +1285,19 @@ msgstr ""
 msgid "The private update download failed. Check credentials and try again."
 msgstr ""
 
+msgid "The release checksum does not match. Installation stopped."
+msgstr ""
+
+msgid "The request could not be completed. Check the plugin status before trying again."
+msgstr ""
+
+msgid "The requirements below describe the offered release."
+msgstr ""
+
 msgid "The update filesystem is unavailable. Please try again."
+msgstr ""
+
+msgid "The update has not been confirmed. You can try again."
 msgstr ""
 
 msgid "The update package could not be checked."
@@ -706,13 +1309,34 @@ msgstr ""
 msgid "These controls affect only your account on this site. Shared rules and other users remain unchanged."
 msgstr ""
 
+msgid "These details contain component versions and catalog status, without credentials or site content."
+msgstr ""
+
 msgid "These positions apply to this site for all users. Only administrators can change them. Missing anchors use the default position."
+msgstr ""
+
+msgid "This catalog requires a newer Library."
+msgstr ""
+
+msgid "This plugin directory already exists. Use the installed plugin; it will not be overwritten."
+msgstr ""
+
+msgid "This release is no longer approved."
+msgstr ""
+
+msgid "This release is not approved."
 msgstr ""
 
 msgid "This release requires a newer WordPress or PHP version. The installed version has been kept."
 msgstr ""
 
 msgid "This report contains versions, integration identifiers and menu status. It contains no site URL, user details or credentials."
+msgstr ""
+
+msgid "Thu"
+msgstr ""
+
+msgid "Thursday"
 msgstr ""
 
 msgid "Toggle favorite"
@@ -724,7 +1348,16 @@ msgstr ""
 msgid "Toolbar position"
 msgstr ""
 
+msgid "Tools"
+msgstr ""
+
 msgid "Try another plugin or page name."
+msgstr ""
+
+msgid "Tue"
+msgstr ""
+
+msgid "Tuesday"
 msgstr ""
 
 msgid "Unavailable account (#%d)"
@@ -733,7 +1366,31 @@ msgstr ""
 msgid "Undo last change"
 msgstr ""
 
+msgid "Unsafe archive path."
+msgstr ""
+
 msgid "Unsaved changes. Preview and apply to update navigation."
+msgstr ""
+
+msgid "Untrusted release URL."
+msgstr ""
+
+msgid "Update %1$s to version %2$s or newer."
+msgstr ""
+
+msgid "Update available"
+msgstr ""
+
+msgid "Update failed."
+msgstr ""
+
+msgid "Update to %s"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Updating…"
 msgstr ""
 
 msgid "Use only marked groups"
@@ -748,7 +1405,22 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
+msgid "View plugins"
+msgstr ""
+
+msgid "Visibility"
+msgstr ""
+
+msgid "Wed"
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
 msgid "Why these groups?"
+msgstr ""
+
+msgid "WordPress"
 msgstr ""
 
 msgid "Workspace"
@@ -758,6 +1430,9 @@ msgid "Workspace name"
 msgstr ""
 
 msgid "Workspace templates"
+msgstr ""
+
+msgid "You already use one of my plugins. Find selected additions in the deckerweb tab."
 msgstr ""
 
 msgid "You cannot change these rules."
