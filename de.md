@@ -20,7 +20,7 @@ Persönliche Favoriten, kurze Bezeichnungen und dauerhaft eingehängte Plugin-Gr
 
 Das Ziel ist seit 2022 dasselbe: weniger Zeit mit Suchen verbringen und leichter mit WordPress arbeiten.
 
-**2.0.1** · WordPress **6.7+** · PHP **8.3+**
+**2.0.2** · WordPress **6.7+** · PHP **8.3+**
 
 [FAQ](#faq) · [Änderungsverlauf](#changelog) · [GitHub](https://github.com/deckerweb/plugin-submenu-mover)
 
@@ -92,7 +92,7 @@ Originalmenü für eine Stunde anzeigen stellt die ursprüngliche Navigation vor
 
 ### Voraussetzungen und gemeinsame Komponenten
 
-WordPress 6.7+ und PHP 8.3+ bleiben die Mindestanforderungen. Enthalten sind deckerweb Library 1.1.0 und Updater 2.2.1; ein zusätzliches Komponenten-Plugin ist nicht erforderlich. Der optionale Onlinekatalog der Library ist zunächst ausgeschaltet. Der Updater ruft stabile Release-Metadaten und gewählte Updatepakete von GitHub ab. Keine Telemetrie. Die Auslieferung erfolgt ausschließlich als installierbares Plugin-ZIP.
+WordPress 6.7+ und PHP 8.3+ bleiben die Mindestanforderungen. Enthalten sind deckerweb Library 1.3.0 und Updater 2.4.0; ein zusätzliches Komponenten-Plugin ist nicht erforderlich. Der optionale Onlinekatalog der Library ist zunächst ausgeschaltet. Der Updater ruft stabile Release-Metadaten und gewählte Updatepakete von GitHub ab. Keine Telemetrie. Die Auslieferung erfolgt ausschließlich als installierbares Plugin-ZIP.
 
 ### Gruppenleiste und Kurzbezeichnungen
 

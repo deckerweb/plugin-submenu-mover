@@ -20,7 +20,7 @@ Personal favorites, short labels and persistent plugin groups make recurring tas
 
 The goal has stayed the same since 2022: spend less time looking for things and make working with WordPress easier.
 
-**2.0.1** · WordPress **6.7+** · PHP **8.3+**
+**2.0.2** · WordPress **6.7+** · PHP **8.3+**
 
 [FAQ](#faq) · [Changelog](#changelog) · [GitHub](https://github.com/deckerweb/plugin-submenu-mover)
 
@@ -92,7 +92,7 @@ Show original menu for one hour temporarily restores the original navigation for
 
 ### Requirements and shared components
 
-WordPress 6.7+ is retained; version 2.0 requires PHP 8.3+. This package embeds deckerweb Library 1.1.0 and Updater 2.2.1; no separate component plugin is required. Optional Library online catalog retrieval defaults off. The updater contacts GitHub for stable release metadata and selected update packages. No telemetry is included. Distributed exclusively as an installable plugin ZIP.
+WordPress 6.7+ is retained; version 2.0 requires PHP 8.3+. This package embeds deckerweb Library 1.3.0 and Updater 2.4.0; no separate component plugin is required. Optional Library online catalog retrieval defaults off. The updater contacts GitHub for stable release metadata and selected update packages. No telemetry is included. Distributed exclusively as an installable plugin ZIP.
 
 ### Group bar and short labels
 

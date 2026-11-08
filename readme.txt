@@ -4,7 +4,7 @@ Tags: admin, menu, navigation
 Requires at least: 6.7
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,6 +55,9 @@ Rules, hub selections and workspaces belong to each site; favorites and history 
 Deactivation preserves configuration. Uninstall removes temporary preview, undo and original-view metadata. Site settings and personal shortcuts remain by default; the explicit deletion switch removes this plugin’s data for the site. On network uninstall each site’s choice is respected. Shared Library cleanup follows its last-host policy. Other plugins and their content remain untouched.
 
 == Changelog ==
+= 2.0.2 · 2026-11-09 =
+* Fixed: Updated deckerweb Library to 1.3.0 and Updater to 2.4.0: normal updates are independent of the catalog, with bounded downloads and stricter package checks.
+
 = 2.0.1 · 2026-10-22 =
 * Improved: More reliable GitHub updates alongside other deckerweb plugins.
 * Improved: Updated the bundled plugin catalog and shared components.
